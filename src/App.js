@@ -50,13 +50,10 @@ function App() {
             <a className="nav-link js-scroll-trigger" href="#about">About</a>
           </li>
           <li className="nav-item">
-            <a className="nav-link js-scroll-trigger" href="#portfolio">Portfolio</a>
+            <a className="nav-link js-scroll-trigger" href="#portfolio">News</a>
           </li>
           <li className="nav-item">
-            <a className="nav-link js-scroll-trigger" href="#about">About</a>
-          </li>
-          <li className="nav-item">
-            <a className="nav-link js-scroll-trigger" href="#team">Team</a>
+            <a className="nav-link js-scroll-trigger" href="#team">Prices and Booking</a>
           </li>
           <li className="nav-item">
             <a className="nav-link js-scroll-trigger" href="#contact">Contact</a>
@@ -72,7 +69,7 @@ function App() {
       <div className="intro-text">
         <div className="intro-lead-in">GET STARTED TODAY</div>
         <div className="intro-heading text-uppercase">A professional English Teaching Service</div>
-        <a className="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="#services">Make a Booking</a>
+        <a className="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="#team">Make a Booking</a>
       </div>
     </div>
   </header>
@@ -97,7 +94,7 @@ function App() {
                   <p className="text-muted">Hey! My name is Chris, I'm a qualified advanced ESL instructor with a BA and Masters degree in English Literature and Creative Writing from Exeter University in the UK (Top 10 universities in Europe). I've spent time teaching in England and India, and I'm now based in Stockholm.</p>
                   <p className="text-muted">I create English courses to match the needs and interests of my students, in order to make your learning as fun, personal and effective as possible. I will also give advice on how best to continue learning outside of the lesson, for even faster progress.</p>
                   <p className="text-muted"> Whether you are trying to improve your fluency and confidence in conversation, practicing for exams and job interviews, or are hoping to expand your vocabulary, together we will assess your goals and create a step-by-step program that works towards them- at your pace.</p>
-                  <p className="text-muted">I’m a firm believer that more relaxed you are, and the more relevant the topics are to your life, the easier and more enjoyable it is to learn. I really look forward to hearing from you!</p>
+                  <p className="text-muted">I’m a firm believer that the more relaxed you are, and the more relevant the topics are to your life, the easier and more enjoyable it is to learn. I really look forward to hearing from you!</p>
                   </div>
               </div>
           </div>
@@ -110,50 +107,6 @@ function App() {
       </div>
       </div>
       </section>
-
-
-  
-  <section className="page-section" id="services">
-    <div className="container">
-      <div className="row">
-        <div className="col-lg-12 text-center">
-          <h2 className="section-heading text-uppercase">Services</h2>
-          <h3 className="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
-        </div>
-      </div>
-      <div className="row text-center">
-        <div className="col-md-4">
-          <span className="fa-stack fa-4x">
-            <i className="fa fa-circle fa-stack-2x text-primary"></i>
-            <i className="fa fa-shopping-cart fa-stack-1x fa-inverse"></i>
-          </span>
-          <h4 className="service-heading">E-Commerce</h4>
-          <p className="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
-        </div>
-        <div className="col-md-4">
-          <span className="fa-stack fa-4x">
-            <i className="fa fa-circle fa-stack-2x text-primary"></i>
-            <i className="fa fa-laptop fa-stack-1x fa-inverse"></i>
-          </span>
-          <h4 className="service-heading">Responsive Design</h4>
-          <p className="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
-        </div>
-        <div className="col-md-4">
-          <span className="fa-stack fa-4x">
-            <i className="fa fa-circle fa-stack-2x text-primary"></i>
-            <i className="fa fa-lock fa-stack-1x fa-inverse"></i>
-          </span>
-          <h4 className="service-heading">Web Security</h4>
-          <p className="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  
-  <Portfolio portfolioLinks={portfolioLinks}></Portfolio>
-
-
   
   <section className="bg-light page-section" id="team">
     <div className="container">
@@ -164,75 +117,65 @@ function App() {
         </div>
       </div>
       <div className="row">
-        <div className="col-sm-4">
-          <div className="team-member">
-            <img className="mx-auto rounded-circle" src="img/team/1.jpg" alt=""/>
-            <h4>Kay Garland</h4>
-            <p className="text-muted">Lead Designer</p>
-            <ul className="list-inline social-buttons">
-              <li className="list-inline-item">
-                <a href="#something">
-                  <i className="fa fa-twitter"></i>
-                </a>
-              </li>
-              <li className="list-inline-item">
-                <a href="#something">
-                  <i className="fa fa-facebook-f"></i>
-                </a>
-              </li>
-              <li className="list-inline-item">
-                <a href="#something">
-                  <i className="fa fa-linkedin-in"></i>
-                </a>
-              </li>
-            </ul>
-          </div>
-        </div>
-        <div className="col-sm-4">
+        <div className="col-sm-3">
           <div className="team-member">
             <img className="mx-auto rounded-circle" src="img/team/2.jpg" alt=""/>
-            <h4>Larry Parker</h4>
-            <p className="text-muted">Lead Marketer</p>
+            <h6>Individual Lessons</h6><br></br><p></p>
+           
+            <p className="text-muted">£50.00 p/h</p>
             <ul className="list-inline social-buttons">
               <li className="list-inline-item">
                 <a href="#something">
-                  <i className="fa fa-twitter"></i>
-                </a>
-              </li>
-              <li className="list-inline-item">
-                <a href="#something">
                   <i className="fa fa-facebook-f"></i>
-                </a>
-              </li>
-              <li className="list-inline-item">
-                <a href="#something">
-                  <i className="fa fa-linkedin-in"></i>
                 </a>
               </li>
             </ul>
           </div>
         </div>
-        <div className="col-sm-4">
+        <div className="col-sm-3">
           <div className="team-member">
             <img className="mx-auto rounded-circle" src="img/team/3.jpg" alt=""/>
-            <h4>Diana Pertersen</h4>
-            <p className="text-muted">Lead Developer</p>
+            <h6>Group Lessons (2 or more people)</h6><br></br>
+    
+            <p className="text-muted">£80.00 p/h</p>
             <ul className="list-inline social-buttons">
-              <li className="list-inline-item">
-                <a href="#something">
-                  <i className="fa fa-twitter"></i>
-                </a>
-              </li>
               <li className="list-inline-item">
                 <a href="#something">
                   <i className="fa fa-facebook-f"></i>
                 </a>
               </li>
+            </ul>
+          </div>
+        </div>
+
+        <div className="col-sm-3">
+          <div className="team-member">
+            <img className="mx-auto rounded-circle" src="img/team/2.jpg" alt=""/>
+            <h6>Individual Lessons - Monthly</h6><br></br>
+            {/* <p className="text-muted">1 person</p> */}
+            <p className="text-muted">£50.00 p/h</p>
+            <ul className="list-inline social-buttons">
               <li className="list-inline-item">
                 <a href="#something">
-                  <i className="fa fa-linkedin-in"></i>
+                  <i className="fa fa-facebook-f"></i>
                 </a>
               </li>
+            </ul>
+          </div>
+        </div>
+        <div className="col-sm-3">
+          <div className="team-member">
+            <img className="mx-auto rounded-circle" src="img/team/1.jpg" alt=""/>
+            <h6>Group Lessons - Monthly</h6><br></br>
+            <p className="text-muted">£75p/h</p>
+            <ul className="list-inline social-buttons">
+          
+              <li className="list-inline-item">
+                <a href="#something">
+                  <i className="fa fa-facebook-f"></i>
+                </a>
+              </li>
+          
             </ul>
           </div>
         </div>
