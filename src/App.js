@@ -39,7 +39,7 @@ function App() {
     <div className="App">
       <nav className="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
     <div className="container">
-      <a className="navbar-brand js-scroll-trigger" href="#page-top">Start Bootstrap</a>
+      <a className="navbar-brand js-scroll-trigger" href="#page-top">EMT - English Master Teacher</a>
       <button className="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
         Menu
         <i className="fa fa-bars"></i>
@@ -47,7 +47,7 @@ function App() {
       <div className="collapse navbar-collapse" id="navbarResponsive">
         <ul className="navbar-nav text-uppercase ml-auto">
           <li className="nav-item">
-            <a className="nav-link js-scroll-trigger" href="#services">Services</a>
+            <a className="nav-link js-scroll-trigger" href="#about">About</a>
           </li>
           <li className="nav-item">
             <a className="nav-link js-scroll-trigger" href="#portfolio">Portfolio</a>
@@ -70,12 +70,47 @@ function App() {
   <header className="masthead">
     <div className="container">
       <div className="intro-text">
-        <div className="intro-lead-in">Welcome To Our Studio!</div>
-        <div className="intro-heading text-uppercase">It's Nice To Meet You</div>
-        <a className="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="#services">Tell Me More</a>
+        <div className="intro-lead-in">GET STARTED TODAY</div>
+        <div className="intro-heading text-uppercase">A professional English Teaching Service</div>
+        <a className="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="#services">Make a Booking</a>
       </div>
     </div>
   </header>
+
+  <section className="page-section" id="about">
+    <div className="container">
+      <div className="row">
+        <div className="col-lg-12">
+        <center>
+          <h2 id="about" className="section-heading text-uppercase">About</h2>
+          </center>
+          </div>
+          <div className="col-lg-6">
+            <center>
+          <img src={require('./assets/img/chris.png')} id="chris" class="img-fluid" alt="Responsive image"></img>
+          </center>
+          </div>
+
+          <div className="col-lg-6">
+          <div className="timeline-panel">
+                <div className="intro-body">
+                  <p className="text-muted">Hey! My name is Chris, I'm a qualified advanced ESL instructor with a BA and Masters degree in English Literature and Creative Writing from Exeter University in the UK (Top 10 universities in Europe). I've spent time teaching in England and India, and I'm now based in Stockholm.</p>
+                  <p className="text-muted">I create English courses to match the needs and interests of my students, in order to make your learning as fun, personal and effective as possible. I will also give advice on how best to continue learning outside of the lesson, for even faster progress.</p>
+                  <p className="text-muted"> Whether you are trying to improve your fluency and confidence in conversation, practicing for exams and job interviews, or are hoping to expand your vocabulary, together we will assess your goals and create a step-by-step program that works towards them- at your pace.</p>
+                  <p className="text-muted">I’m a firm believer that more relaxed you are, and the more relevant the topics are to your life, the easier and more enjoyable it is to learn. I really look forward to hearing from you!</p>
+                  </div>
+              </div>
+          </div>
+
+             <div className="col-lg-12">   
+             <div className="container">
+</div> 
+</div>
+           
+      </div>
+      </div>
+      </section>
+
 
   
   <section className="page-section" id="services">
@@ -118,93 +153,13 @@ function App() {
   
   <Portfolio portfolioLinks={portfolioLinks}></Portfolio>
 
-  
-  <section className="page-section" id="about">
-    <div className="container">
-      <div className="row">
-        <div className="col-lg-12 text-center">
-          <h2 className="section-heading text-uppercase">About</h2>
-          <h3 className="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
-        </div>
-      </div>
-      <div className="row">
-        <div className="col-lg-12">
-          <ul className="timeline">
-            <li>
-              <div className="timeline-image">
-                <img className="rounded-circle img-fluid" src="img/about/1.jpg" alt=""/>
-              </div>
-              <div className="timeline-panel">
-                <div className="timeline-heading">
-                  <h4>2009-2011</h4>
-                  <h4 className="subheading">Our Humble Beginnings</h4>
-                </div>
-                <div className="timeline-body">
-                  <p className="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
-                </div>
-              </div>
-            </li>
-            <li className="timeline-inverted">
-              <div className="timeline-image">
-                <img className="rounded-circle img-fluid" src="img/about/2.jpg" alt=""/>
-              </div>
-              <div className="timeline-panel">
-                <div className="timeline-heading">
-                  <h4>March 2011</h4>
-                  <h4 className="subheading">An Agency is Born</h4>
-                </div>
-                <div className="timeline-body">
-                  <p className="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
-                </div>
-              </div>
-            </li>
-            <li>
-              <div className="timeline-image">
-                <img className="rounded-circle img-fluid" src="img/about/3.jpg" alt=""/>
-              </div>
-              <div className="timeline-panel">
-                <div className="timeline-heading">
-                  <h4>December 2012</h4>
-                  <h4 className="subheading">Transition to Full Service</h4>
-                </div>
-                <div className="timeline-body">
-                  <p className="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
-                </div>
-              </div>
-            </li>
-            <li className="timeline-inverted">
-              <div className="timeline-image">
-                <img className="rounded-circle img-fluid" src="img/about/4.jpg" alt=""/>
-              </div>
-              <div className="timeline-panel">
-                <div className="timeline-heading">
-                  <h4>July 2014</h4>
-                  <h4 className="subheading">Phase Two Expansion</h4>
-                </div>
-                <div className="timeline-body">
-                  <p className="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
-                </div>
-              </div>
-            </li>
-            <li className="timeline-inverted">
-              <div className="timeline-image">
-                <h4>Be Part
-                  <br/>Of Our
-                  <br/>Story!</h4>
-              </div>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </div>
-  </section>
 
   
   <section className="bg-light page-section" id="team">
     <div className="container">
       <div className="row">
         <div className="col-lg-12 text-center">
-          <h2 className="section-heading text-uppercase">Our Amazing Team</h2>
+          <h2 className="section-heading text-uppercase">Prices and Booking</h2>
           <h3 className="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
         </div>
       </div>
