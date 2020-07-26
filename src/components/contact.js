@@ -34,12 +34,20 @@ export default class Contact extends React.Component {
         email: this.state.email
       };
 
+      let axiosConfig = {
+        headers: {
+            'Content-Type': 'application/json;',
+            "Access-Control-Allow-Origin": "*",
+        }
+      };
 
-      axios.post('https://tranquil-taiga-20049.herokuapp.com/', {
-        post
+
+      axios.post('https://tranquil-taiga-20049.herokuapp.com/api/form', {
+        post, axiosConfig
       })
       .then(function (response) {
         console.log(response);
+        console.log("hey!")
       })
       .catch(function (error) {
         console.log(error);
@@ -73,7 +81,7 @@ export default class Contact extends React.Component {
     </div>
     <div className="row">
       <div className="col-lg-12">
-        <form id="contactForm" name="sentMessage" novalidate="novalidate" onSubmit={this.onSubmit}>
+        <form id="contactForm" name="sentMessage" noValidate="novalidate" onSubmit={this.onSubmit}>
           <div className="row">
             <div className="col-md-6">
               <div className="form-group">

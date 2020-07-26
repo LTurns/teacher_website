@@ -84,7 +84,7 @@ function App() {
           </div>
           <div className="col-lg-6">
             <center>
-          <img src={require('./assets/img/chris.png')} id="chris" class="img-fluid" alt=""></img>
+          <img src={require('./assets/img/chris.png')} id="chris" className="img-fluid" alt=""></img>
           </center>
           </div>
 
