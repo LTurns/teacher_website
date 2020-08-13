@@ -1,39 +1,8 @@
 import React from 'react';
-// import logo from './logo.svg';
 import Contact from './components/contact'
 import './App.css';
 
 function App() {
-  // const portfolioLinks = [
-  //   {
-  //     title: 'Threads',
-  //     caption: 'Illustration'
-  //   },
-  //   {
-  //     title: 'Explore',
-  //     caption: 'Graphic Design'
-  //   },
-  //   {
-  //     title: 'Finish',
-  //     caption: 'Identity'
-  //   },
-  //   {
-  //     title: 'Lines',
-  //     caption: 'Branding'
-  //   },
-  //   {
-  //     title: 'Southwest',
-  //     caption: 'Website Design'
-  //   },
-  //   {
-  //     title: 'Window',
-  //     caption: 'Photography'
-  //   },
-  //   {
-  //     title: 'Pizza',
-  //     caption: 'I love pizza!'
-  //   }
-  // ]
 
   return (
     <div className="App">
@@ -63,7 +32,7 @@ function App() {
     </div>
   </nav>
 
-  
+
   <header className="masthead">
     <div className="container">
       <div className="intro-text">
@@ -74,12 +43,13 @@ function App() {
     </div>
   </header>
 
-  <section className="page-section" id="about">
-    <div className="container">
+  <section className="page-section" id="section1">
+    <div id="about_top">
+    <div className="container" id="about_mid">
       <div className="row">
         <div className="col-lg-12">
         <center>
-          <h2 id="about" className="section-heading text-uppercase">About</h2>
+          <h2 id="about_title" className="section-heading text-uppercase">About</h2>
           </center>
           </div>
           <div className="col-lg-6">
@@ -91,7 +61,7 @@ function App() {
           <div className="col-lg-6">
           <div className="timeline-panel">
                 <div className="intro-body">
-                  <p className="text-muted">Hey! My name is Chris, I'm a qualified advanced ESL instructor with a BA and Masters degree in English Literature and Creative Writing from Exeter University in the UK (Top 10 universities in Europe). I've spent time teaching in England and India, and I'm now based in Stockholm.</p>
+                  <p >Hey! My name is Chris, I'm a qualified advanced ESL instructor with a BA and Masters degree in English Literature and Creative Writing from Exeter University in the UK (Top 10 universities in Europe). I've spent time teaching in England and India, and I'm now based in Stockholm.</p>
                   <p className="text-muted">I create English courses to match the needs and interests of my students, in order to make your learning as fun, personal and effective as possible. I will also give advice on how best to continue learning outside of the lesson, for even faster progress.</p>
                   <p className="text-muted"> Whether you are trying to improve your fluency and confidence in conversation, practicing for exams and job interviews, or are hoping to expand your vocabulary, together we will assess your goals and create a step-by-step program that works towards them- at your pace.</p>
                   <p className="text-muted">I’m a firm believer that the more relaxed you are, and the more relevant the topics are to your life, the easier and more enjoyable it is to learn. I really look forward to hearing from you!</p>
@@ -104,6 +74,7 @@ function App() {
 </div> 
 </div>
            
+      </div>
       </div>
       </div>
       </section>

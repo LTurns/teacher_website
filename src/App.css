@@ -5,16 +5,14 @@
 
 
 #chris {
-    border: 0 none;
     /* display: inline-block; */
-    height: auto;
+    /* height: auto; */
     max-width: 100%;
-    padding: 20px;
   }
 
-#about {
+/* #about {
   padding: 20px;
-}
+} */
 
 .intro-body {
   padding: 25px;
