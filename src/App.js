@@ -43,13 +43,13 @@ function App() {
     </div>
   </header>
 
-  <section className="page-section" id="section1">
-    <div id="about_top">
+
+  <div className="page-section" id="section1">
+  <center><h1 id="about_title" className="section-heading text-uppercase">About</h1></center>
     <div className="container" id="about_mid">
       <div className="row">
         <div className="col-lg-12">
         <center>
-          <h1 id="about_title" className="section-heading text-uppercase">About</h1>
           </center>
           </div>
           <div className="col-lg-6">
@@ -61,10 +61,10 @@ function App() {
           <div className="col-lg-6">
           <div className="timeline-panel">
                 <div className="intro-body">
-                  <p >Hey! My name is Chris, I'm a qualified advanced ESL instructor with a BA and Masters degree in English Literature and Creative Writing from Exeter University in the UK (Top 10 universities in Europe). I've spent time teaching in England and India, and I'm now based in Stockholm.</p>
-                  <p className="text-muted">I create English courses to match the needs and interests of my students, in order to make your learning as fun, personal and effective as possible. I will also give advice on how best to continue learning outside of the lesson, for even faster progress.</p>
-                  <p className="text-muted"> Whether you are trying to improve your fluency and confidence in conversation, practicing for exams and job interviews, or are hoping to expand your vocabulary, together we will assess your goals and create a step-by-step program that works towards them- at your pace.</p>
-                  <p className="text-muted">I’m a firm believer that the more relaxed you are, and the more relevant the topics are to your life, the easier and more enjoyable it is to learn. I really look forward to hearing from you!</p>
+                  <p>Hey! My name is Chris, I'm a qualified advanced ESL instructor with a BA and Masters degree in English Literature and Creative Writing from Exeter University in the UK (Top 10 universities in Europe). I've spent time teaching in England and India, and I'm now based in Stockholm.</p>
+                  <p>I create English courses to match the needs and interests of my students, in order to make your learning as fun, personal and effective as possible. I will also give advice on how best to continue learning outside of the lesson, for even faster progress.</p>
+                  <p>Whether you are trying to improve your fluency and confidence in conversation, practicing for exams and job interviews, or are hoping to expand your vocabulary, together we will assess your goals and create a step-by-step program that works towards them- at your pace.</p>
+                  <p>I’m a firm believer that the more relaxed you are, and the more relevant the topics are to your life, the easier and more enjoyable it is to learn. I really look forward to hearing from you!</p>
                   </div>
               </div>
           </div>
@@ -77,7 +77,6 @@ function App() {
       </div>
       </div>
       </div>
-      </section>
   
   <section className="bg-light page-section" id="team">
     <div className="container">
