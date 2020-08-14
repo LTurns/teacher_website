@@ -25,8 +25,6 @@
  @media (min-width:992px){
   #mainNav{-webkit-transition:padding-top .3s,padding-bottom .3s;transition:padding-top .3s,padding-bottom .3s;border:none;background-color:transparent}
 
-
-
   #mainNav .navbar-brand{font-size:16px; font-family:'Kaushan Script',-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji'; -webkit-transition:all .3s;transition:all .3s}
   
   #mainNav .navbar-nav .nav-item .nav-link, #page_top {padding:1.1em 1em!important}
@@ -133,7 +131,8 @@
 .intro-body p {
  color: black;
 letter-spacing: 1px;
-font-size: 14px;
+font-size: 13px;
+margin-bottom: 8%;
 }
 
 
@@ -141,8 +140,7 @@ font-size: 14px;
  #section1 {
   background-image: url(../img/bridge.jpeg);
   background-repeat:no-repeat;background-attachment:scroll;
-  background-position:center center;background-size:cover;
- } 
+  background-position:center center;background-size:cover;}
 
  #chris {
   margin-top: 10%;
@@ -154,4 +152,63 @@ font-size: 14px;
  margin-bottom: 20%;
 }
 
+}
+
+#section2 {
+ background-image: url(../img/officehome.jpg);
+ background-repeat:no-repeat;background-attachment:scroll;
+ background-position:center center;background-size:cover;
+ padding-bottom: 7%;
+}
+
+#prices {
+ padding-top: 25%;
+}
+
+/* #table {
+  margin-top: 5%;
+  background-color: #ededed;
+  opacity: 0.9;
+} */
+
+.prices-intro {
+  letter-spacing: 1px;
+  padding-top: 20px;
+}
+
+/* services */
+
+#services {
+  background-image: url(../img/literature-bookpile.jpg);
+  background-repeat:no-repeat;background-attachment:scroll;
+  background-position:center center;background-size:cover;
+  padding-bottom: 7%;
+}
+
+td {
+  color: black;
+  letter-spacing: 1px;
+  font-size: 12px;
+}
+
+
+th {
+  color: black;
+  letter-spacing: 1px;
+  font-size: 12px;
+}
+
+
+#service-stuff {
+  background-color: #EDEDED;
+  padding: 7%;
+  margin-top: 10%;
+  font-size: 13px;
+  letter-spacing: 1px;
+}
+
+
+#officepic {
+  height: 410px;
+  margin-top: 10%;
 }
