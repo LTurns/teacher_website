@@ -1,5 +1,6 @@
 import React from 'react';
 import Contact from './components/contact'
+import Portfolio from './components/Portfolio'
 import './App.css';
 
 function App() {
@@ -8,7 +9,7 @@ function App() {
     <div className="App">
       <nav className="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
     <div className="container">
-      <a className="navbar-brand js-scroll-trigger" href="#page-top">EMT - ENGLISH MASTER TEACHER</a>
+      <a id="page_top" className="navbar-brand js-scroll-trigger" href="#page-top"><strong>E</strong>NGLISH  <strong>M</strong>ASTER <strong>T</strong>EACHER</a>
       <button className="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
         Menu
         <i className="fa fa-bars"></i>
@@ -48,7 +49,7 @@ function App() {
       <div className="row">
         <div className="col-lg-12">
         <center>
-          <h2 id="about_title" className="section-heading text-uppercase">About</h2>
+          <h1 id="about_title" className="section-heading text-uppercase">About</h1>
           </center>
           </div>
           <div className="col-lg-6">
@@ -188,7 +189,7 @@ function App() {
 
 <Contact />
 
-
+<Portfolio />
   
   <footer className="footer">
     <div className="container">
