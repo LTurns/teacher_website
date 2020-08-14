@@ -72,10 +72,9 @@ export default class Contact extends React.Component {
 
           
   <section className="page-section" id="contact">
-  <div className="container">
+  <div className="container" id="contacts">
     <div className="row">
       <div className="col-lg-12 text-center">
-        <h2 className="section-heading text-uppercase">Contact Me</h2>
         <h3 className="section-subheading text-muted">If you have any queries, please do not hesitate to get in touch.</h3>
       </div>
     </div>

@@ -164,7 +164,7 @@ function App() {
     <h1 id="about_title" className="section-heading text-uppercase">Prices and Booking</h1></center>
     <div className="container" id="price">
       <div className="row">
-        <div className="col-lg-12 text-center">
+        <div className="col-lg-12">
           <p className="prices-intro">Please see the list of options and prices below.</p>        
   <table class="table table-light">
     <thead>
@@ -228,8 +228,6 @@ function App() {
   </div>
 
 <Contact />
-
-<Portfolio />
   
   <footer className="footer">
     <div className="container">
