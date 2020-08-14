@@ -120,7 +120,7 @@ function App() {
       </tr>
       <tr>
         <th>Lesson 4:</th>
-        <td>FFamily members and friends- comparing personality traits and looks.</td>
+        <td>Family members and friends- comparing personality traits and looks.</td>
       </tr>
       <tr>
         <th>Lesson 5:</th>
@@ -162,13 +162,11 @@ function App() {
   <div className="page-section" id="section2">
   <center>
     <h1 id="about_title" className="section-heading text-uppercase">Prices and Booking</h1></center>
-    <div className="container" id="table">
+    <div className="container" id="price">
       <div className="row">
         <div className="col-lg-12 text-center">
-          <p className="prices-intro">Please see the list of options and prices below.</p>
-        </div>
-      <div class="container">          
-  <table class="table table-dark">
+          <p className="prices-intro">Please see the list of options and prices below.</p>        
+  <table class="table table-light">
     <thead>
       <tr>
         <th>Service</th>

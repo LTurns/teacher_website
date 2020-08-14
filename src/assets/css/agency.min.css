@@ -43,6 +43,7 @@
  
  .btn-xl{
   font-size:18px;
+  letter-spacing: 1px;
   font-weight: 100px;
   padding:25px 40px; }
   .btn-primary{
@@ -70,6 +71,7 @@
 
  .btn-xl{
   font-size:12px;
+  letter-spacing: 1px;
   margin-top: 20px;
   padding:20px 20px}
 
@@ -205,10 +207,22 @@ th {
   margin-top: 10%;
   font-size: 13px;
   letter-spacing: 1px;
+  opacity: 0.9;
 }
 
 
 #officepic {
-  height: 410px;
+  height: 413px;
   margin-top: 10%;
+}
+
+#price {
+  background-color: #EDEDED;
+  opacity: 0.9;
+  margin-top: 5%;
+  font-size: 13px;
+  letter-spacing: 1px;
+  width: 1110px;
+  padding-bottom: 20px;
+  padding-top: 10px;
 }
