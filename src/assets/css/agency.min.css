@@ -115,6 +115,7 @@
   background-color:#EDEDED;
   opacity: 0.7;
   padding: 40px;
+  padding-top: 60px;
  }
 
 #chris {
@@ -145,7 +146,7 @@ margin-bottom: 2.5%;
   background-position:center center;background-size:cover;}
 
  #chris {
-  margin-top: 10%;
+  margin-top: 2%;
  }
 
  #tefl {
@@ -156,11 +157,13 @@ margin-bottom: 2.5%;
 
 
 .timeline-panel {
- margin-top: 10%;
+ margin-top: 2%;
  margin-bottom: 5%;
 }
 
 }
+
+/* price & booking */
 
 #book {
  background-image: url(../img/officeespresso.jpg);
@@ -182,6 +185,17 @@ margin-bottom: 2.5%;
 .prices-intro {
   letter-spacing: 1px;
   padding-top: 20px;
+}
+
+#price {
+  background-color: #EDEDED;
+  opacity: 0.9;
+  margin-top: 2%;
+  font-size: 13px;
+  letter-spacing: 1px;
+  width: 1110px;
+  padding-bottom: 20px;
+  padding-top: 10px;
 }
 
 /* services */
@@ -210,7 +224,7 @@ th {
 #service-stuff {
   background-color: #EDEDED;
   padding: 7%;
-  margin-top: 10%;
+  margin-top: 2%;
   font-size: 13px;
   letter-spacing: 1px;
   opacity: 0.9;
@@ -219,19 +233,9 @@ th {
 
 #officepic {
   height: 413px;
-  margin-top: 10%;
+  margin-top: 2%;
 }
 
-#price {
-  background-color: #EDEDED;
-  opacity: 0.9;
-  margin-top: 5%;
-  font-size: 13px;
-  letter-spacing: 1px;
-  width: 1110px;
-  padding-bottom: 20px;
-  padding-top: 10px;
-}
 
 /* contact */
 
@@ -242,7 +246,7 @@ th {
  }
 
  #contacts {
-   padding: 3%;
+   padding: 4%;
    background-color: #EDEDED;
    opacity: 0.9;
    width: 1000px;
@@ -274,4 +278,5 @@ th {
  }
  .footer{
    background-color: #EDEDED;
+   font-size: 11px;
  }
