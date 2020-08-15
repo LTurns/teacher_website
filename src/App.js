@@ -64,9 +64,11 @@ function App() {
           <div className="timeline-panel">
                 <div className="intro-body">
                   <p>Hey! My name is Chris, I'm a qualified advanced ESL instructor with a BA and Masters degree in English Literature and Creative Writing from Exeter University in the UK (Top 10 universities in Europe). I've spent time teaching in England and India, and I'm now based in Stockholm.</p>
-                  <p>I create English courses to match the needs and interests of my students, in order to make your learning as fun, personal and effective as possible. I will also give advice on how best to continue learning outside of the lesson, for even faster progress.</p>
+                     <p>I create English courses to match the needs and interests of my students, in order to make your learning as fun, personal and effective as possible. I will also give advice on how best to continue learning outside of the lesson, for even faster progress.</p>
                   <p>Whether you are trying to improve your fluency and confidence in conversation, practicing for exams and job interviews, or are hoping to expand your vocabulary, together we will assess your goals and create a step-by-step program that works towards them - at your pace.</p>
                   <p>I’m a firm believer that the more relaxed you are, and the more relevant the topics are to your life, the easier and more enjoyable it is to learn. I really look forward to hearing from you!</p>
+
+                  <img src={require('./assets/img/tefl.png')} id="tefl" className="img-fluid center mx-auto" alt=""></img>
                   </div>
               </div>
           </div> 
@@ -199,71 +201,13 @@ function App() {
     </div>
   </div>
 
-  
-  <div className="py-5">
-    <div className="container">
-      <div className="row">
-        <div className="col-md-3 col-sm-6">
-          <a href="#something">
-            <img className="img-fluid d-block mx-auto" src="img/logos/envato.jpg" alt=""/>
-          </a>
-        </div>
-        <div className="col-md-3 col-sm-6">
-          <a href="#something">
-            <img className="img-fluid d-block mx-auto" src="img/logos/designmodo.jpg" alt=""/>
-          </a>
-        </div>
-        <div className="col-md-3 col-sm-6">
-          <a href="#something">
-            <img className="img-fluid d-block mx-auto" src="img/logos/themeforest.jpg" alt=""/>
-          </a>
-        </div>
-        <div className="col-md-3 col-sm-6">
-          <a href="#something">
-            <img className="img-fluid d-block mx-auto" src="img/logos/creative-market.jpg" alt=""/>
-          </a>
-        </div>
-      </div>
-    </div>
-  </div>
 
 <Contact />
   
   <footer className="footer">
     <div className="container">
       <div className="row align-items-center">
-        <div className="col-md-4">
-          <span className="copyright">Copyright &copy; Your Website 2019</span>
-        </div>
-        <div className="col-md-4">
-          <ul className="list-inline social-buttons">
-            <li className="list-inline-item">
-              <a href="#something">
-                <i className="fa fa-twitter"></i>
-              </a>
-            </li>
-            <li className="list-inline-item">
-              <a href="#something">
-                <i className="fa fa-facebook-f"></i>
-              </a>
-            </li>
-            <li className="list-inline-item">
-              <a href="#something">
-                <i className="fa fa-linkedin-in"></i>
-              </a>
-            </li>
-          </ul>
-        </div>
-        <div className="col-md-4">
-          <ul className="list-inline quicklinks">
-            <li className="list-inline-item">
-              <a href="#something">Privacy Policy</a>
-            </li>
-            <li className="list-inline-item">
-              <a href="#something">Terms of Use</a>
-            </li>
-          </ul>
-        </div>
+          <span className="copyright">Copyright &copy; English Master Teacher 2020</span>
       </div>
     </div>
   </footer>

@@ -126,7 +126,7 @@
  background-color: #ededed;
  opacity: 0.9;
  margin-bottom: 20%;
- padding: 11%;
+ padding: 8%;
  border-radius:3px;
 }
 
@@ -134,7 +134,7 @@
  color: black;
 letter-spacing: 1px;
 font-size: 13px;
-margin-bottom: 8%;
+margin-bottom: 2.5%;
 }
 
 
@@ -148,16 +148,22 @@ margin-bottom: 8%;
   margin-top: 10%;
  }
 
+ #tefl {
+   width: 40%;
+   display: block;
+   margin-top: 8%;
+ }
+
 
 .timeline-panel {
  margin-top: 10%;
- margin-bottom: 20%;
+ margin-bottom: 5%;
 }
 
 }
 
 #section2 {
- background-image: url(../img/officehome.jpg);
+ background-image: url(../img/officeespresso.jpg);
  background-repeat:no-repeat;background-attachment:scroll;
  background-position:center center;background-size:cover;
  padding-bottom: 7%;
@@ -230,9 +236,42 @@ th {
 /* contact */
 
 #contact {
-  background-image: url(../img/officehome.jpg);
+  background-image: url(../img/durdledoor.jpeg);
   background-repeat:no-repeat;background-attachment:scroll;
   background-position:center center;background-size:cover;
-  margin-bottom: none;
-  margin-top: none;
+ }
+
+ #contacts {
+   padding: 3%;
+   background-color: #EDEDED;
+   opacity: 0.9;
+   width: 1000px;
+ }
+
+ .contact-intro{
+  color: black;
+  letter-spacing: 2px;
+  font-size: 17px;
+  padding-bottom: 3%;
+ }
+
+ .form-group {
+   width: 500px;
+   display: block;
+   font-size: 13px;
+ }
+
+ ::placeholder {
+  font-size: 13px;
+  letter-spacing: 1px;
+  color: grey;
+ }
+
+ input{
+  font-size: 13px;
+  letter-spacing: 1px;
+  color:black;
+ }
+ .footer{
+   background-color: #EDEDED;
  }
