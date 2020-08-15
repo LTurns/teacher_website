@@ -103,7 +103,7 @@
 /* About page */
 
 
-#section1 {
+#about {
  background-image: url(../img/bridge.jpeg);
  background-repeat:no-repeat;background-attachment:scroll;
  background-position:center center;background-size:cover;
@@ -162,7 +162,7 @@ margin-bottom: 2.5%;
 
 }
 
-#section2 {
+#book {
  background-image: url(../img/officeespresso.jpg);
  background-repeat:no-repeat;background-attachment:scroll;
  background-position:center center;background-size:cover;

@@ -9,7 +9,7 @@ function App() {
     <div className="App">
       <nav className="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
     <div className="container">
-      <a id="page_top" className="navbar-brand js-scroll-trigger" href="#page-top"><strong>E</strong>NGLISH  <strong>M</strong>ASTER <strong>T</strong>EACHER</a>
+      <a id="page_top" className="navbar-brand js-scroll-trigger" href="/"><strong>E</strong>NGLISH  <strong>M</strong>ASTER <strong>T</strong>EACHER</a>
       <button className="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
         Menu
         <i className="fa fa-bars"></i>
@@ -20,10 +20,10 @@ function App() {
             <a className="nav-link js-scroll-trigger" href="#about">About</a>
           </li>
           <li className="nav-item">
-            <a className="nav-link js-scroll-trigger" href="#portfolio">News</a>
+            <a className="nav-link js-scroll-trigger" href="#services">Services</a>
           </li>
           <li className="nav-item">
-            <a className="nav-link js-scroll-trigger" href="#team">Prices and Booking</a>
+            <a className="nav-link js-scroll-trigger" href="#book">Prices and Booking</a>
           </li>
           <li className="nav-item">
             <a className="nav-link js-scroll-trigger" href="#contact">Contact</a>
@@ -46,7 +46,7 @@ function App() {
   {/* about */}
 
 
-  <div className="page-section" id="section1">
+  <div className="page-section" id="about">
   <center><h1 id="about_title" className="section-heading text-uppercase">About</h1></center>
     <div className="container" id="about_mid">
       <div className="row no-gutters">
@@ -161,7 +161,7 @@ function App() {
   
 
 
-  <div className="page-section" id="section2">
+  <div className="page-section" id="book">
   <center>
     <h1 id="about_title" className="section-heading text-uppercase">Prices and Booking</h1></center>
     <div className="container" id="price">
