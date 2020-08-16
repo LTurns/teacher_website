@@ -83,7 +83,7 @@ export default class Book extends React.Component {
     return(
 
      <div className="page-section" id="booking">
-        <h1 id="booking_title" className="section-heading text-center"></h1>
+        <h1 id="booking_title" className="section-heading text-center">BOOK</h1>
         <div className="container">
       <div className="row" id="form">
         <div className="col-lg-12">
@@ -100,7 +100,7 @@ export default class Book extends React.Component {
    } else {
     return (
          <div className="page-section" id="booking">
-         <h1 id="booking_title" className="section-heading text-center"></h1>
+         <h1 id="booking_title" className="section-heading text-center">BOOK</h1>
     <div className="container">
       <div className="row" id="form">
         <div className="col-lg-12">
@@ -141,7 +141,7 @@ export default class Book extends React.Component {
                 <p className="help-block text-danger"></p>
               </div>
               <div className="form-group mx-auto">
-                <textarea className="form-control" id="message" name="topics" placeholder="If there are any topics in particular that you'd like to discuss, please let me know here." value={this.state.message} onChange={this.changeValue}></textarea>
+                <textarea className="form-control" id="message" name="topics" placeholder="Please let me know any topics you would like to discuss." value={this.state.message} onChange={this.changeValue}></textarea>
                 </div>
 
              

@@ -44,7 +44,7 @@ function App() {
 
 
   <div className="page-section" id="about">
-  <center><h1 id="about_title" className="section-heading text-uppercase"></h1></center>
+  <center><h1 id="about_title" className="section-heading text-uppercase">ABOUT</h1></center>
     <div className="container" id="about_mid">
       <div className="row no-gutters">
         {/* <div className="col-lg-12">
@@ -82,7 +82,7 @@ function App() {
 
 <div className="page-section" id="services">
   <center>
-    <h1 id="services_title" className="section-heading text-uppercase"></h1></center>
+    <h1 id="services_title" className="section-heading text-uppercase">SERVICES</h1></center>
     <div className="container" id="table">
     <div className="row no-gutters">
         <div className="col-lg-6">

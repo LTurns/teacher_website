@@ -106,12 +106,7 @@
 } 
 
  #about_title, #services_title, #prices_title, #booking_title, #contact_title {
-  font-size: 40px;
-  font-weight: 450px;
-  background-color:#EDEDED;
-  opacity: 0.7;
-  padding: 30px;
-  padding-top: 50px;
+  visibility: hidden;
  }
  
  .timeline-panel {
@@ -142,11 +137,17 @@
  }
 
  @media (max-width:768px){
-   #about_title:before{
-     content: "ABOUT";
-     font-size: 35px;
-     padding: 2%;
-   }
+
+ #about_title, #services_title, #prices_title, #booking_title, #contact_title {
+  font-size: 35px;
+  padding: 2%;
+  font-weight: 450px;
+  background-color:#EDEDED;
+  opacity: 0.7;
+  padding: 30px;
+  padding-top: 50px;
+  visibility: visible;
+ }
 
    #tefl {
     width: 40%;
@@ -181,10 +182,6 @@
  padding-bottom: 7%;
 }
 
-#prices {
- /* padding-top: 25%; */
-}
-
 .prices-intro {
   letter-spacing: 1px;
   padding-top: 20px;
@@ -216,12 +213,6 @@
 
 #continue_button:hover{
   width: 300px;
-}
-
-@media (max-width:768px){
-  #prices_title:before{
-    content: "PRICES AND BOOKING";
-  }
 }
 
 /* services */
@@ -263,9 +254,9 @@ th {
 }
 
 @media (max-width:768px){
-  #services_title:before{
+  /* #services_title:before{
     content: "Services"
-  }
+  } */
 
   #officepic{
     margin-top: 0%;
@@ -317,9 +308,6 @@ th {
  }
 
 @media (max-width:768px){
-  #booking_title:before {
-    content: "BOOK";
-  }
 
     .form-group {
       width: 70%;
@@ -394,10 +382,4 @@ th {
 #sendMessageButton {
   background-color:  #add8e6;
   margin-top: 3%;
-}
-
-@media(max-width:768px){
- #contact_title:before{
-   content:"CONTACT";
- }
 }
