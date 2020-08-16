@@ -85,10 +85,12 @@ export default class Contact extends React.Component {
             <h1 id="about_title" className="section-heading text-uppercase text-center">CONTACT</h1>
             <div className="container">
             <div className="row">
-              <div className="col-lg-12" id="contacts">
+              <div className="col-lg-12">
+                <div id="contacts">
                       <p className="confirmation text-center">Thank you for your query. I will be in touch shortly!</p>
               </div>
               </div>
+           </div>
            </div>
           </div>)
     } else {
@@ -97,7 +99,8 @@ export default class Contact extends React.Component {
     <h1 id="about_title" className="section-heading text-uppercase text-center"></h1>
     <div className="container" >
     <div className="row">
-      <div className="col-lg-12" id="contacts">
+      <div className="col-lg-12">
+        <div id="contacts">
     <p className="contact-intro text-center"> Please get in touch if you have any questions.</p>
         <form id="contactForm" name="sentMessage" noValidate="novalidate" onSubmit={this.onSubmit}>
               <div className="form-group mx-auto">
@@ -122,6 +125,7 @@ export default class Contact extends React.Component {
               <button id="sendMessageButton" className="btn btn-primary btn-xl text-uppercase" type="submit">Send Message</button>
             </div>
         </form>
+        </div>
       </div>
       </div>
    </div>

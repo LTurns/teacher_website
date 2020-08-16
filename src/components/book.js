@@ -84,13 +84,15 @@ export default class Book extends React.Component {
 
      <div className="page-section" id="booking">
         <h1 id="about_title" className="section-heading text-center">BOOKING</h1>
-        <div className="container">
+        {/* <div className="container"> */}
       <div className="row" id="form">
-        <div className="col-lg-12" id="confirm">
+        <div className="col-lg-12">
+         <div id="confirm">
            <div>
              <p className="confirmation text-center">Your booking enquiry has been submitted successfully!<br></br><br></br>I will be in touch to arrange a zoom call within the next few days.<br></br>In the meantime, please feel free to get in touch at : <br></br><br></br><a id="email" href="mailto:englishmasterteacher@gmail.com">englishmasterteacher@gmail.com</a></p>
            </div>
            </div>
+           {/* </div> */}
            </div>
            </div>
          </div>)
@@ -101,7 +103,8 @@ export default class Book extends React.Component {
          <h1 id="about_title" className="section-heading text-center"></h1>
     <div className="container">
       <div className="row" id="form">
-        <div className="col-lg-12" id="confirm">
+        <div className="col-lg-12">
+         <div id="confirm">
          <p className="booking-intro text-center"> Please select a service and fill in the required details.<br></br>I will be in touch shortly!</p>
 
          <form id="bookForm" name="sentMessage" noValidate="novalidate" onSubmit={this.onSubmit}>
@@ -149,6 +152,7 @@ export default class Book extends React.Component {
       </div>
       </div>
    </div>
+  </div>
   </div>
     )}
   }
