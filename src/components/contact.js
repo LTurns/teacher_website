@@ -1,5 +1,6 @@
 import React from 'react';
 import axios from 'axios'
+import Axios from 'axios';
 
 export default class Contact extends React.Component {
 
@@ -9,7 +10,9 @@ export default class Contact extends React.Component {
             name: '',
             phone: '',
             email: '',
-            message: ''
+            message: '', 
+            submitted: false, 
+            type: 'Enquiry'
             }
 
     this.changeValue = this.changeValue.bind(this);
@@ -26,12 +29,16 @@ export default class Contact extends React.Component {
 
   onSubmit = (event) => {
       event.preventDefault();
+      this.setState({
+        submitted: true
+      })
 
       const post = {
         message: this.state.message,
         name: this.state.name,
         phone: this.state.phone,
-        email: this.state.email
+        email: this.state.email, 
+        type: this.state.type
       };
 
       let axiosConfig = {
@@ -40,21 +47,26 @@ export default class Contact extends React.Component {
             "Access-Control-Allow-Origin": "*",
         }
       };
+      // https://tranquil-taiga-20049.herokuapp.com/api/form'
 
+      axios({
+        url: 'http://localhost:4000/api/new-student', 
+        method: 'POST', 
+        data: post, 
+        headers: axiosConfig
+      })
+      // axios.post('http://localhost:4000/api/new-student', {
+      //   post, axiosConfig
+      // })
 
-      axios.post('https://tranquil-taiga-20049.herokuapp.com/api/form', {
-        post, axiosConfig
+      .then(() => {
+        console.log('Data has been sent to server');
       })
-      .then(function (response) {
-        console.log(response);
-        console.log("hey!")
-      })
-      .catch(function (error) {
-        console.log(error);
+     
+      .catch(() => {
+        console.log('error');
       });
-
-
-         this.reset();
+        this.reset();
 
   }
 
@@ -68,12 +80,25 @@ export default class Contact extends React.Component {
   }
 
   render(){
+    if(this.state.submitted === true ){
+      return(
+          <div className="page-section1" id="contact">
+            <h1 id="about_title" className="section-heading text-uppercase text-center">CONTACT</h1>
+            <div className="container">
+            <div className="row">
+              <div className="col-lg-12" id="contacts">
+                      <p className="confirmation text-center">Thank you for your query. I will be in touch shortly!</p>
+              </div>
+              </div>
+           </div>
+          </div>)
+    } else {
     return(
-  <div className="page-section" id="contact">
-    <h1 id="about_title" className="section-heading text-uppercase text-center"></h1>
-    <div className="container" id="contacts">
-    <div className="row" id="form">
-      <div className="col-lg-12">
+  <div className="page-section1" id="contact">
+    <h1 id="about_title" className="section-heading text-uppercase text-center">CONTACT</h1>
+    <div className="container" >
+    <div className="row">
+      <div className="col-lg-12" id="contacts">
     <p className="contact-intro text-center"> Please get in touch if you have any questions.</p>
         <form id="contactForm" name="sentMessage" noValidate="novalidate" onSubmit={this.onSubmit}>
               <div className="form-group mx-auto">
@@ -103,6 +128,7 @@ export default class Contact extends React.Component {
    </div>
   </div>
     )
+    }
   }
 
 }

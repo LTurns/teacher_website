@@ -144,6 +144,7 @@ margin-bottom: 2.5%;
   background-image: url(../img/bridge.jpeg);
   background-repeat:no-repeat;background-attachment:scroll;
   background-position:center center;background-size:cover;}
+  
 
  #chris {
   margin-top: 2%;
@@ -173,14 +174,8 @@ margin-bottom: 2.5%;
 }
 
 #prices {
- padding-top: 25%;
+ /* padding-top: 25%; */
 }
-
-/* #table {
-  margin-top: 5%;
-  background-color: #ededed;
-  opacity: 0.9;
-} */
 
 .prices-intro {
   letter-spacing: 1px;
@@ -193,9 +188,24 @@ margin-bottom: 2.5%;
   margin-top: 2%;
   font-size: 13px;
   letter-spacing: 1px;
-  width: 1110px;
-  padding-bottom: 20px;
-  padding-top: 10px;
+  width: 88%;
+  /* padding-top: 10px; */
+}
+
+#continue_button, #bookbutton {
+  font-size: 14px;
+  letter-spacing: 1px;
+  font-weight: 100px;
+  margin-top: 5px;
+ }
+
+ #bookbutton:hover {
+  width: 150px;
+
+ }
+
+#continue_button:hover{
+  width: 300px;
 }
 
 /* services */
@@ -236,6 +246,41 @@ th {
   margin-top: 2%;
 }
 
+/* booking */
+
+#booking {
+  background-image: url(../img/londonnight.jpeg);
+  background-repeat:no-repeat;background-attachment:scroll;
+  background-position:center center;background-size:cover;
+ }
+
+ #confirm {
+   background-color: #ededed;
+   margin-top: 2%;
+   padding-bottom: 5%;
+   margin-bottom: 7%;
+   opacity: 0.9;
+ }
+
+
+ .booking-intro{
+  color: black;
+  letter-spacing: 2px;
+  font-size: 17px;
+  padding-top: 3%;
+  padding-bottom: 3%;
+}
+
+#email {
+  text-decoration: none;
+  color: black;
+}
+
+/* #bookborder {
+  width: 88%;
+  margin-bottom: 7%;
+} */
+
 
 /* contact */
 
@@ -245,12 +290,7 @@ th {
   background-position:center center;background-size:cover;
  }
 
- #contacts {
-   padding: 4%;
-   background-color: #EDEDED;
-   opacity: 0.9;
-   width: 1000px;
- }
+
 
  .contact-intro{
   color: black;
@@ -280,3 +320,30 @@ th {
    background-color: #EDEDED;
    font-size: 11px;
  }
+
+ .dropdown {
+   font-size: 13px;
+   letter-spacing: 1px;
+   color: grey;
+   padding-bottom: 2%;
+ }
+
+ .confirmation{
+   font-size: 15px;
+   letter-spacing:1px;
+   color :#EDEDED;
+   opacity: 0.9;
+   margin-top:10%;
+   margin-bottom: 10%;
+   background-color: grey;
+   padding: 5%;
+ }
+
+ #contacts {
+  padding: 4%;
+  margin-top: 5%;
+  background-color: #EDEDED;
+  opacity: 0.9;
+  margin-bottom: 1%;
+  width:300px;
+}
