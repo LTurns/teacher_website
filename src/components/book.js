@@ -98,7 +98,7 @@ export default class Book extends React.Component {
    } else {
     return (
          <div className="page-section" id="booking">
-         <h1 id="about_title" className="section-heading text-center">BOOKING</h1>
+         <h1 id="about_title" className="section-heading text-center"></h1>
     <div className="container">
       <div className="row" id="form">
         <div className="col-lg-12" id="confirm">

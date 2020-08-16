@@ -48,7 +48,7 @@
   padding:25px 40px; }
   .btn-primary{
    margin-top: 70px;
-   background-color: white;
+   background-color:  #90EE90;
    color: BLACK;
    opacity: 0.7; 
    border: none; 
@@ -58,7 +58,7 @@
 
 
    .btn-primary:active,.btn-primary:focus,.btn-primary:hover{
-    background-color: white; color: BLACK; opacity: 0.7; width: 250px;}
+    background-color: #90EE90; color: BLACK; opacity: 0.7; width: 250px;}
 
   .btn-primary:active,.btn-primary:focus{-webkit-box-shadow:0 0 0 .2rem rgba(254,209,55,.5)!important;box-shadow:0 0 0 .2rem rgba(254,209,55,.5)!important}
   
@@ -110,12 +110,12 @@
 } 
 
  #about_title {
-  font-size: 50px;
+  font-size: 40px;
   font-weight: 450px;
   background-color:#EDEDED;
   opacity: 0.7;
-  padding: 40px;
-  padding-top: 60px;
+  padding: 30px;
+  padding-top: 50px;
  }
 
 #chris {
@@ -197,6 +197,7 @@ margin-bottom: 2.5%;
   letter-spacing: 1px;
   font-weight: 100px;
   margin-top: 5px;
+  background-color: #90EE90;
  }
 
  #bookbutton:hover {
@@ -266,7 +267,7 @@ th {
  .booking-intro{
   color: black;
   letter-spacing: 2px;
-  font-size: 17px;
+  font-size: 13px;
   padding-top: 3%;
   padding-bottom: 3%;
 }
@@ -295,7 +296,7 @@ th {
  .contact-intro{
   color: black;
   letter-spacing: 2px;
-  font-size: 17px;
+  font-size: 13px;
   padding-bottom: 3%;
  }
 
@@ -311,7 +312,7 @@ th {
   color: grey;
  }
 
- input{
+ input[text]{
   font-size: 13px;
   letter-spacing: 1px;
   color:black;
@@ -331,19 +332,23 @@ th {
  .confirmation{
    font-size: 15px;
    letter-spacing:1px;
-   color :#EDEDED;
+   color :coral;
    opacity: 0.9;
-   margin-top:10%;
-   margin-bottom: 10%;
-   background-color: grey;
-   padding: 5%;
+   margin-top:5%;
+   /* margin-bottom: 10%;
+   background-color: coral; */
+   padding: 7%;
  }
 
  #contacts {
   padding: 4%;
-  margin-top: 5%;
+  margin-top: 1%;
   background-color: #EDEDED;
   opacity: 0.9;
-  margin-bottom: 1%;
+  margin-bottom: 3%;
   width:300px;
+}
+
+#sendMessageButton {
+  background-color:  #add8e6
 }

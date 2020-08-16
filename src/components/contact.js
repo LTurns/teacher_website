@@ -94,7 +94,7 @@ export default class Contact extends React.Component {
     } else {
     return(
   <div className="page-section1" id="contact">
-    <h1 id="about_title" className="section-heading text-uppercase text-center">CONTACT</h1>
+    <h1 id="about_title" className="section-heading text-uppercase text-center"></h1>
     <div className="container" >
     <div className="row">
       <div className="col-lg-12" id="contacts">

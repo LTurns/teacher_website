@@ -6,7 +6,7 @@ export default class Price extends React.Component{
   return (
 <div className="page-section" id="book">
 <center>
-  <h1 id="about_title" className="section-heading text-uppercase">Prices</h1></center>
+  <h1 id="about_title" className="section-heading text-uppercase"></h1></center>
   <div className="container" id="price">
     <div className="row">
       <div className="col-lg-12">
