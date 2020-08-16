@@ -1,6 +1,5 @@
 import React from 'react';
 import axios from 'axios'
-import Axios from 'axios';
 
 export default class Contact extends React.Component {
 

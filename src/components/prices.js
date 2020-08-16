@@ -1,5 +1,4 @@
 import React from 'react'; 
-import Table, {Thead, Tbody, Tr, Td} from "react-row-select-table";
 
 export default class Price extends React.Component{
 
