@@ -4,152 +4,269 @@
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-agency/blob/master/LICENSE)
  */
 
- /* NAVBAR */
-   
- #mainNav .navbar-brand{font-size: 12px; color:black;font-family:'Kaushan Script',-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji'; background-color:#EDEDED; opacity: 0.7; border-radius: 2%; letter-spacing: 2px; display: block;}
-
- #mainNav .navbar-brand.active,#mainNav .navbar-brand:active,#mainNav .navbar-brand:focus,#mainNav .navbar-brand:hover {
-  color:grey}
-  
- #mainNav .navbar-nav .nav-item .nav-link{font-size:80%;font-weight:400;padding:.75em 0;letter-spacing:1px;color:black;font-family:Montserrat,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji'; background-color:#EDEDED; opacity: 0.7; border-radius: 2%;}
- #mainNav .navbar-nav .nav-item .nav-link.active,#mainNav .navbar-nav .nav-item .nav-link:hover{color:grey;}
+/* NAV-BAR & BUTTON DESIGN */
 
 
+#mainNav .navbar-brand {
+  font-size: 12px;
+  color: black;
+  font-family: "Kaushan Script", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  background-color: #ededed;
+  opacity: 0.7;
+  border-radius: 2%;
+  letter-spacing: 2px;
+  display: block;
+}
 
- /* navBar @media */
+#mainNav .navbar-brand.active,
+#mainNav .navbar-brand:active,
+#mainNav .navbar-brand:focus,
+#mainNav .navbar-brand:hover {
+  color: grey;
+}
 
- @media (min-width:992px){
-  #mainNav{-webkit-transition:padding-top .3s,padding-bottom .3s;transition:padding-top .3s,padding-bottom .3s;border:none;background-color:transparent}
+#mainNav .navbar-nav .nav-item .nav-link {
+  font-size: 80%;
+  font-weight: 400;
+  padding: 0.75em 0;
+  letter-spacing: 1px;
+  color: black;
+  font-family: Montserrat, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+    "Segoe UI Symbol", "Noto Color Emoji";
+  background-color: #ededed;
+  opacity: 0.7;
+  border-radius: 2%;
+}
+#mainNav .navbar-nav .nav-item .nav-link.active,
+#mainNav .navbar-nav .nav-item .nav-link:hover {
+  color: grey;
+}
 
-  #mainNav .navbar-brand{font-size:14px; font-family:'Kaushan Script',-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji'; -webkit-transition:all .3s;transition:all .3s}
-  
-  #mainNav .navbar-nav .nav-item .nav-link, #page_top {padding:1.1em 1em!important}
- 
- }
+.text-primary {
+  color: white !important;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 600;
+  font-family: Montserrat, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+    "Segoe UI Symbol", "Noto Color Emoji";
+}
 
- 
- .text-primary{color:white!important}h1,h2,h3,h4,h5,h6{
-  font-weight:600;font-family:Montserrat,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji'}
- 
- @media (min-width:768px){section{padding:150px 0}}
- 
- ::-moz-selection{background:grey;text-shadow:none}::selection{background:grey;text-shadow:none}img::-moz-selection{background:0 0}img::selection{background:0 0}img::-moz-selection{background:0 0}
- 
- .btn{font-family:Montserrat,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji';font-weight:500}
- 
- .btn-xl{
-  font-size:15px;
+
+@media (min-width: 768px) {
+  section {
+    padding: 150px 0;
+  }
+}
+
+#mainNav .navbar-nav .nav-item .nav-link,
+#page_top {
+  padding: 1.1em 1em !important;
+}
+
+::-moz-selection {
+  background: grey;
+  text-shadow: none;
+}
+::selection {
+  background: grey;
+  text-shadow: none;
+}
+img::-moz-selection {
+  background: 0 0;
+}
+img::selection {
+  background: 0 0;
+}
+img::-moz-selection {
+  background: 0 0;
+}
+
+.btn {
+  font-family: Montserrat, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+    "Segoe UI Symbol", "Noto Color Emoji";
+  font-weight: 500;
+}
+
+.btn-xl {
+  font-size: 15px;
   letter-spacing: 1px;
   font-weight: 100px;
-  padding:25px 40px; }
-  .btn-primary{
-   margin-top: 70px;
-   background-color: white;
-   color: BLACK;
-   opacity: 0.7; 
-   border: none; 
-   border-radius: 2%; 
-   box-shadow: rgba(5px,0,0,.1); 
+  padding: 25px 40px;
+}
+.btn-primary {
+  margin-top: 70px;
+  background-color: white;
+  color: BLACK;
+  opacity: 0.7;
+  border: none;
+  border-radius: 2%;
+  box-shadow: rgba(5px, 0, 0, 0.1);
+}
+
+.btn-primary:active,
+.btn-primary:focus,
+.btn-primary:hover {
+  background-color: white;
+  color: BLACK;
+  opacity: 0.7;
+  width: 250px;
+}
+
+.btn-primary:active,
+.btn-primary:focus {
+  -webkit-box-shadow: 0 0 0 0.2rem rgba(254, 209, 55, 0.5) !important;
+  box-shadow: 0 0 0 0.2rem rgba(254, 209, 55, 0.5) !important;
+}
+
+/* HEADER FRONT PAGE DESIGN */
+
+
+header.masthead {
+  text-align: center;
+  color: #fff;
+  background-image: url(../img/Cornwall.jpeg);
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  background-size: cover;
+}
+
+header.masthead .intro-text .intro-lead-in {
+  font-size: 22px;
+  font-style: italic;
+  line-height: 22px;
+  font-family: "Droid Serif", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+header.masthead .intro-text .intro-heading {
+  font-size: 40px;
+  font-weight: 550px;
+  line-height: 50px;
+  font-family: Montserrat, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+    "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+@media (max-width: 768px) {
+  header.masthead .intro-text {
+    padding-top: 150px;
+    padding-bottom: 200px;
   }
 
-
-   .btn-primary:active,.btn-primary:focus,.btn-primary:hover{
-    background-color: white; color: BLACK; opacity: 0.7; width: 250px;}
-
-  .btn-primary:active,.btn-primary:focus{-webkit-box-shadow:0 0 0 .2rem rgba(254,209,55,.5)!important;box-shadow:0 0 0 .2rem rgba(254,209,55,.5)!important}
-  
-   /* background - home */
- header.masthead{text-align:center;color:#fff;background-image:url(../img/Cornwall.jpeg);background-repeat:no-repeat;background-attachment:scroll;background-position:center center;background-size:cover;}
-
-
- @media (max-width:768px){ header.masthead .intro-text{
-  padding-top: 150px;padding-bottom:100px}
-
- .btn-xl{
-  font-size:12px;
-  letter-spacing: 1px;
-  margin-top: 20px;
-  padding:20px 20px}
-
-  header.masthead{text-align:center;color:#fff;background-image:url(../img/Cornwall.jpeg);background-repeat:no-repeat;background-attachment:scroll;background-position:center center;background-size:cover;}
-
-
-  .btn-primary{
-   background-color: white;
-   color: black;
-   box-shadow: rgba(5px,0,0,.1); 
+  .btn-xl {
+    font-size: 12px;
+    letter-spacing: 1px;
+    margin-top: 20px;
+    padding: 30px px;
   }
 
-  .btn-primary:active,.btn-primary:focus,.btn-primary:hover{
-   background-color: white; color: black; opacity: 0.7; width: 170px;}
-}
- 
- header.masthead .intro-text .intro-lead-in{font-size:22px;font-style:italic;line-height:22px;font-family:'Droid Serif',-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji';}
- 
- header.masthead .intro-text .intro-heading{font-size:40px;font-weight:550px;line-height:50px;font-family:Montserrat,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji'}
- 
- 
- @media (min-width:768px){header.masthead .intro-text{padding-top:300px;padding-bottom:200px}
- 
- 
- header.masthead .intro-text .intro-heading{font-size:70px;font-weight:550px;line-height:75px;font-family:Montserrat,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji'; color: white;}
+  .btn-primary {
+    background-color: white;
+    color: black;
+    box-shadow: rgba(5px, 0, 0, 0.1);
+  }
 
+  .btn-primary:active,
+  .btn-primary:focus,
+  .btn-primary:hover {
+    background-color: white;
+    color: black;
+    opacity: 0.7;
+    width: 170px;
+  }
 }
- 
-/* About page */
 
+@media (min-width: 768px) {
+  header.masthead .intro-text {
+    padding-top: 300px;
+    padding-bottom: 200px;
+  }
+
+  header.masthead .intro-text .intro-heading {
+    font-size: 70px;
+    font-weight: 550px;
+    line-height: 75px;
+    font-family: Montserrat, -apple-system, BlinkMacSystemFont, "Segoe UI",
+      Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji",
+      "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    color: white;
+  }
+}
+
+/* ABOUT PAGE DESIGN*/
 
 #about {
- background-image: url(../img/bridge.jpeg);
- background-repeat:no-repeat;background-attachment:scroll;
- background-position:center center;background-size:cover;
-} 
+  background-image: url(../img/bridge.jpeg);
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  background-size: cover;
+}
 
- #about_title, #services_title, #prices_title, #booking_title, #contact_title {
+#about_title,
+#services_title,
+#prices_title,
+#booking_title,
+#contact_title {
   visibility: hidden;
- }
- 
- .timeline-panel {
+}
+
+.timeline-panel {
   background-color: #ededed;
   opacity: 0.9;
   margin-bottom: 20%;
   padding: 55px;
   margin-top: 2%;
- }
- 
- .intro-body p {
-  color: black;
- letter-spacing: 1px;
- font-size: 12.5px;
- margin-bottom: 2.5%;
- }
+}
 
- #tefl {
+.intro-body p {
+  color: black;
+  letter-spacing: 1px;
+  font-size: 12.5px;
+  margin-bottom: 2.5%;
+}
+
+#tefl {
   width: 40%;
   display: block;
   margin-top: 8%;
   margin-bottom: 1%;
 }
 
-  #chris {
+#chris {
   margin-top: 2%;
   margin-bottom: 5%;
- }
+}
 
- @media (max-width:768px){
+@media (max-width: 768px) {
+  #about_title,
+  #services_title,
+  #prices_title,
+  #booking_title,
+  #contact_title {
+    font-size: 35px;
+    padding: 2%;
+    font-weight: 450px;
+    background-color: #ededed;
+    opacity: 0.7;
+    padding: 30px;
+    padding-top: 50px;
+    visibility: visible;
+  }
 
- #about_title, #services_title, #prices_title, #booking_title, #contact_title {
-  font-size: 35px;
-  padding: 2%;
-  font-weight: 450px;
-  background-color:#EDEDED;
-  opacity: 0.7;
-  padding: 30px;
-  padding-top: 50px;
-  visibility: visible;
- }
-
-   #tefl {
+  #tefl {
     width: 40%;
     display: block;
     margin-top: 8%;
@@ -168,59 +285,18 @@
     margin-bottom: 5%;
     margin-top: 0%;
     padding: 8%;
-   }
-
- }
-
-
-/* price & booking */
-
-#book {
- background-image: url(../img/officeespresso.jpg);
- background-repeat:no-repeat;background-attachment:scroll;
- background-position:center center;background-size:cover;
- padding-bottom: 7%;
+  }
 }
 
-.prices-intro {
-  letter-spacing: 1px;
-  padding-top: 20px;
-  padding-bottom: 10px;
-}
 
-#price {
-  background-color: #EDEDED;
-  opacity: 0.9;
-  margin-top: 2%;
-  font-size: 13px;
-  letter-spacing: 1px;
-  width: 88%;
-  /* padding-top: 10px; */
-}
-
-#continue_button, #bookbutton {
-  font-size: 14px;
-  letter-spacing: 1px;
-  font-weight: 100px;
-  margin-top: 5px;
-  background-color: #90EE90;
- }
-
- #bookbutton:hover {
-  width: 150px;
-
- }
-
-#continue_button:hover{
-  width: 300px;
-}
-
-/* services */
+/* SERVICES DESIGN */
 
 #services {
   background-image: url(../img/literature-bookpile.jpg);
-  background-repeat:no-repeat;background-attachment:scroll;
-  background-position:center center;background-size:cover;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  background-size: cover;
   padding-bottom: 7%;
 }
 
@@ -230,16 +306,14 @@ td {
   font-size: 12px;
 }
 
-
 th {
   color: black;
   letter-spacing: 1px;
   font-size: 12px;
 }
 
-
 #service-stuff {
-  background-color: #EDEDED;
+  background-color: #ededed;
   padding: 7%;
   margin-top: 2%;
   font-size: 13px;
@@ -247,18 +321,13 @@ th {
   opacity: 0.9;
 }
 
-
 #officepic {
   height: 413px;
   margin-top: 2%;
 }
 
-@media (max-width:768px){
-  /* #services_title:before{
-    content: "Services"
-  } */
-
-  #officepic{
+@media (max-width: 768px) {
+  #officepic {
     margin-top: 0%;
   }
 
@@ -271,24 +340,71 @@ th {
   }
 }
 
-/* booking */
+
+/* PRICE DESIGN*/
+
+#book {
+  background-image: url(../img/officeespresso.jpg);
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  background-size: cover;
+  padding-bottom: 7%;
+}
+
+.prices-intro {
+  letter-spacing: 1px;
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+
+#price {
+  background-color: #ededed;
+  opacity: 0.9;
+  margin-top: 2%;
+  font-size: 13px;
+  letter-spacing: 1px;
+  width: 88%;
+}
+
+#continue_button,
+#bookbutton {
+  font-size: 14px;
+  letter-spacing: 1px;
+  font-weight: 100px;
+  margin-top: 5px;
+  background-color: #90ee90;
+}
+
+#bookbutton:hover {
+  width: 150px;
+}
+
+#continue_button:hover {
+  width: 300px;
+}
+
+
+
+/* BOOKING DESIGN */
 
 #booking {
   background-image: url(../img/londonnight.jpeg);
-  background-repeat:no-repeat;background-attachment:scroll;
-  background-position:center center;background-size:cover;
- }
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  background-size: cover;
+}
 
- #confirm {
-   background-color: #ededed;
-   margin-top: 2%;
-   padding-bottom: 5%;
-   margin-bottom: 7%;
-   opacity: 0.9;
- }
+#confirm {
+  background-color: #ededed;
+  margin-top: 2%;
+  padding-bottom: 5%;
+  margin-bottom: 7%;
+  opacity: 0.9;
+}
 
-
- .booking-intro{
+.booking-intro {
   color: black;
   letter-spacing: 1px;
   font-size: 13px;
@@ -301,85 +417,83 @@ th {
   color: coral;
 }
 
- .form-group {
-   width: 50%;
-   display: block;
-   font-size: 13px;
- }
+.form-group {
+  width: 50%;
+  display: block;
+  font-size: 13px;
+}
 
-@media (max-width:768px){
-
-    .form-group {
-      width: 70%;
-      display: block;
-      font-size: 13px;
+@media (max-width: 768px) {
+  .form-group {
+    width: 70%;
+    display: block;
+    font-size: 13px;
   }
 }
 
 
 
-/* contact */
+/* CONTACT DESIGN */
 
 #contact {
   background-image: url(../img/durdledoor.jpeg);
-  background-repeat:no-repeat;background-attachment:scroll;
-  background-position:center center;background-size:cover;
- }
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  background-size: cover;
+}
 
-
-
- .contact-intro{
+.contact-intro {
   color: black;
   letter-spacing: 1px;
   font-size: 13px;
   padding-bottom: 3%;
- }
+}
 
-
- ::placeholder {
+::placeholder {
   font-size: 13px;
   letter-spacing: 1px;
   color: grey;
- }
+}
 
- input[text]{
+input[text] {
   font-size: 13px;
   letter-spacing: 1px;
-  color:black;
- }
- .footer{
-   background-color: #EDEDED;
-   font-size: 11px;
- }
+  color: black;
+}
+.footer {
+  background-color: #ededed;
+  font-size: 11px;
+}
 
- .dropdown {
-   font-size: 13px;
-   letter-spacing: 1px;
-   color: grey;
-   padding-bottom: 2%;
- }
+.dropdown {
+  font-size: 13px;
+  letter-spacing: 1px;
+  color: grey;
+  padding-bottom: 2%;
+}
 
- .confirmation{
-   font-size: 15px;
-   letter-spacing:1px;
-   color :black;
-   opacity: 0.9;
-   margin-top:5%;
-   padding: 7%;
- }
+.confirmation {
+  font-size: 15px;
+  letter-spacing: 1px;
+  color: black;
+  opacity: 0.9;
+  margin-top: 5%;
+  padding: 7%;
+}
 
- #contacts {
+#contacts {
   padding-top: 2%;
   margin-top: 2%;
   padding-bottom: 5%;
   margin-bottom: 7%;
-  background-color: #EDEDED;
+  background-color: #ededed;
   opacity: 0.9;
   margin-bottom: 7%;
-  width:100%;
+  width: 100%;
 }
 
 #sendMessageButton {
-  background-color:  #add8e6;
+  background-color: #add8e6;
   margin-top: 3%;
 }
