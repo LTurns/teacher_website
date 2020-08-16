@@ -101,7 +101,7 @@ export default class Contact extends React.Component {
     <div className="row">
       <div className="col-lg-12">
         <div id="contacts">
-    <p className="contact-intro text-center"> Please get in touch if you have any questions.</p>
+    <p className="contact-intro text-center"> Please fill in the below form if you have an enquiry.<br></br><br></br>Alternatively, you can email me directly at <a id="email" href="mailto:englishmasterteacher@gmail.com">englishmasterteacher@gmail.com</a>.</p>
         <form id="contactForm" name="sentMessage" noValidate="novalidate" onSubmit={this.onSubmit}>
               <div className="form-group mx-auto">
                 <input className="form-control" id="name" name="name" type="text" placeholder="Your Name *" required="required" data-validation-required-message="Please enter your name." value={this.state.name} onChange={this.changeValue}/>

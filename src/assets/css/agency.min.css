@@ -3,29 +3,25 @@
  * Copyright 2013-2019 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-agency/blob/master/LICENSE)
  */
- 
 
-
- /* navBar */
-
-
- #mainNav .navbar-toggler{font-size:12px;right:0;padding:13px;text-transform:uppercase;color:#fff;border:0;font-family:Montserrat,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji'; color:grey; border:none;background-color:transparent}
+ /* NAVBAR */
    
- #mainNav .navbar-brand{font-size: 12px; color:black;font-family:'Kaushan Script',-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji'; background-color:#EDEDED; opacity: 0.7; border-radius: 2%; letter-spacing: 2px;}
+ #mainNav .navbar-brand{font-size: 12px; color:black;font-family:'Kaushan Script',-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji'; background-color:#EDEDED; opacity: 0.7; border-radius: 2%; letter-spacing: 2px; display: block;}
 
  #mainNav .navbar-brand.active,#mainNav .navbar-brand:active,#mainNav .navbar-brand:focus,#mainNav .navbar-brand:hover {
   color:grey}
   
- #mainNav .navbar-nav .nav-item .nav-link{font-size:90%;font-weight:400;padding:.75em 0;letter-spacing:1px;color:black;font-family:Montserrat,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji'; background-color:#EDEDED; opacity: 0.7; border-radius: 2%;}
- 
+ #mainNav .navbar-nav .nav-item .nav-link{font-size:80%;font-weight:400;padding:.75em 0;letter-spacing:1px;color:black;font-family:Montserrat,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji'; background-color:#EDEDED; opacity: 0.7; border-radius: 2%;}
  #mainNav .navbar-nav .nav-item .nav-link.active,#mainNav .navbar-nav .nav-item .nav-link:hover{color:grey;}
+
+
 
  /* navBar @media */
 
  @media (min-width:992px){
   #mainNav{-webkit-transition:padding-top .3s,padding-bottom .3s;transition:padding-top .3s,padding-bottom .3s;border:none;background-color:transparent}
 
-  #mainNav .navbar-brand{font-size:16px; font-family:'Kaushan Script',-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji'; -webkit-transition:all .3s;transition:all .3s}
+  #mainNav .navbar-brand{font-size:14px; font-family:'Kaushan Script',-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji'; -webkit-transition:all .3s;transition:all .3s}
   
   #mainNav .navbar-nav .nav-item .nav-link, #page_top {padding:1.1em 1em!important}
  
@@ -48,7 +44,7 @@
   padding:25px 40px; }
   .btn-primary{
    margin-top: 70px;
-   background-color:  #90EE90;
+   background-color: white;
    color: BLACK;
    opacity: 0.7; 
    border: none; 
@@ -58,7 +54,7 @@
 
 
    .btn-primary:active,.btn-primary:focus,.btn-primary:hover{
-    background-color: #90EE90; color: BLACK; opacity: 0.7; width: 250px;}
+    background-color: white; color: BLACK; opacity: 0.7; width: 250px;}
 
   .btn-primary:active,.btn-primary:focus{-webkit-box-shadow:0 0 0 .2rem rgba(254,209,55,.5)!important;box-shadow:0 0 0 .2rem rgba(254,209,55,.5)!important}
   
@@ -109,7 +105,7 @@
  background-position:center center;background-size:cover;
 } 
 
- #about_title {
+ #about_title, #services_title, #prices_title, #booking_title {
   font-size: 40px;
   font-weight: 450px;
   background-color:#EDEDED;
@@ -117,52 +113,64 @@
   padding: 30px;
   padding-top: 50px;
  }
-
-#chris {
- border-radius: 3px;
- margin-bottom: 20%;
-}
-
-.timeline-panel {
- background-color: #ededed;
- opacity: 0.9;
- margin-bottom: 20%;
- padding: 8%;
- border-radius:3px;
-}
-
-.intro-body p {
- color: black;
-letter-spacing: 1px;
-font-size: 13px;
-margin-bottom: 2.5%;
-}
-
-
-@media (min-width:768px){
- #section1 {
-  background-image: url(../img/bridge.jpeg);
-  background-repeat:no-repeat;background-attachment:scroll;
-  background-position:center center;background-size:cover;}
-  
-
- #chris {
+ 
+ .timeline-panel {
+  background-color: #ededed;
+  opacity: 0.9;
+  margin-bottom: 20%;
+  padding: 55px;
   margin-top: 2%;
+ }
+ 
+ .intro-body p {
+  color: black;
+ letter-spacing: 1px;
+ font-size: 12.5px;
+ margin-bottom: 2.5%;
  }
 
  #tefl {
-   width: 40%;
-   display: block;
-   margin-top: 8%;
+  width: 40%;
+  display: block;
+  margin-top: 8%;
+  margin-bottom: 1%;
+}
+
+  #chris {
+  margin-top: 2%;
+  margin-bottom: 5%;
  }
 
+ @media (max-width:768px){
+   #about_title:before{
+     content: "ABOUT";
+     font-size: 35px;
+     padding: 2%;
+   }
 
-.timeline-panel {
- margin-top: 2%;
- margin-bottom: 5%;
-}
+   #tefl {
+    width: 40%;
+    display: block;
+    margin-top: 8%;
+  }
+  .intro-body p {
+    font-size: 13px;
+  }
 
-}
+  #chris {
+    margin-bottom: 0;
+  }
+
+  .timeline-panel {
+    background-color: #ededed;
+    opacity: 0.9;
+    margin-bottom: 5%;
+    margin-top: 0%;
+    padding: 8%;
+   }
+
+ }
+
 
 /* price & booking */
 
@@ -180,6 +188,7 @@ margin-bottom: 2.5%;
 .prices-intro {
   letter-spacing: 1px;
   padding-top: 20px;
+  padding-bottom: 10px;
 }
 
 #price {
@@ -207,6 +216,12 @@ margin-bottom: 2.5%;
 
 #continue_button:hover{
   width: 300px;
+}
+
+@media (max-width:768px){
+  #prices_title:before{
+    content: "PRICES AND BOOKING";
+  }
 }
 
 /* services */
@@ -247,6 +262,24 @@ th {
   margin-top: 2%;
 }
 
+@media (max-width:768px){
+  #services_title:before{
+    content: "Services"
+  }
+
+  #officepic{
+    margin-top: 0%;
+  }
+
+  th {
+    text-align: center;
+  }
+
+  #table {
+    margin-bottom: 0%;
+  }
+}
+
 /* booking */
 
 #booking {
@@ -266,7 +299,7 @@ th {
 
  .booking-intro{
   color: black;
-  letter-spacing: 2px;
+  letter-spacing: 1px;
   font-size: 13px;
   padding-top: 3%;
   padding-bottom: 3%;
@@ -274,13 +307,27 @@ th {
 
 #email {
   text-decoration: none;
-  color: black;
+  color: coral;
 }
 
-/* #bookborder {
-  width: 88%;
-  margin-bottom: 7%;
-} */
+ .form-group {
+   width: 50%;
+   display: block;
+   font-size: 13px;
+ }
+
+@media (max-width:768px){
+  #booking_title:before {
+    content: "BOOK";
+  }
+
+    .form-group {
+      width: 70%;
+      display: block;
+      font-size: 13px;
+  }
+}
+
 
 
 /* contact */
@@ -295,16 +342,11 @@ th {
 
  .contact-intro{
   color: black;
-  letter-spacing: 2px;
+  letter-spacing: 1px;
   font-size: 13px;
   padding-bottom: 3%;
  }
 
- .form-group {
-   width: 500px;
-   display: block;
-   font-size: 13px;
- }
 
  ::placeholder {
   font-size: 13px;
@@ -332,11 +374,9 @@ th {
  .confirmation{
    font-size: 15px;
    letter-spacing:1px;
-   color :coral;
+   color :black;
    opacity: 0.9;
    margin-top:5%;
-   /* margin-bottom: 10%;
-   background-color: coral; */
    padding: 7%;
  }
 

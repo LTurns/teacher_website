@@ -10,11 +10,7 @@ function App() {
     <div className="App">
       <nav className="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
     <div className="container">
-      <a id="page_top" className="navbar-brand js-scroll-trigger" href="/"><strong>E</strong>NGLISH  <strong>M</strong>ASTER <strong>T</strong>EACHER</a>
-      <button className="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-        Menu
-        <i className="fa fa-bars"></i>
-      </button>
+      <a id="page_top" className="navbar-brand js-scroll-trigger mx-auto" href="/"><strong>E</strong>NGLISH  <strong>M</strong>ASTER <strong>T</strong>EACHER</a>
       <div className="collapse navbar-collapse" id="navbarResponsive">
         <ul className="navbar-nav text-uppercase ml-auto">
           <li className="nav-item">
@@ -86,7 +82,7 @@ function App() {
 
 <div className="page-section" id="services">
   <center>
-    <h1 id="about_title" className="section-heading text-uppercase"></h1></center>
+    <h1 id="services_title" className="section-heading text-uppercase"></h1></center>
     <div className="container" id="table">
     <div className="row no-gutters">
         <div className="col-lg-6">
@@ -105,48 +101,48 @@ function App() {
           <img src={require('./assets/img/officehome.jpg')} id="officepic" className="img-fluid" alt=""></img>
           </div>
           </div>
-      <div className="row">
+      <div className="row" id="#table">
         <div className="col-lg-12">     
   <table class="table table-light">
     <tbody>
       <tr>
-        <th>Lesson 1: </th>
-        <td>Food and flavour- Adjectives</td>
+        <th>Lesson 1</th>
+        <td>Food and flavour - Adjectives.</td>
       </tr>
       <tr>
-        <th>Lesson 2:</th>
-        <td>Food and flavour- Comparative adjectives</td>
+        <th>Lesson 2</th>
+        <td>Food and flavour - Comparative adjectives.</td>
       </tr>
       <tr>
-        <th>Lesson 3:</th>
-        <td>Family members and friends-  verb 'to have' in past, present and future tense.</td>
+        <th>Lesson 3</th>
+        <td>Family members and friends -  verb 'to have' in past, present and future tense.</td>
       </tr>
       <tr>
-        <th>Lesson 4:</th>
-        <td>Family members and friends- comparing personality traits and looks.</td>
+        <th>Lesson 4</th>
+        <td>Family members and friends - comparing personality traits and looks.</td>
       </tr>
       <tr>
-        <th>Lesson 5:</th>
+        <th>Lesson 5</th>
         <td>Modal Verbs related to lesson 3. Must, can, could, shall, should, might.</td>
       </tr>
       <tr>
-        <th>Lesson 6:</th>
+        <th>Lesson 6</th>
         <td>Listening skills. Various exercises to develop listening skills, using the topics already covered.</td>
       </tr>
       <tr>
-        <th>Lesson 7:</th>
-        <td>Workplace vocabulary. Where do you work, why? Do you prefer it to other jobs you have had? (Using comparative adjectives from lesson 2)</td>
+        <th>Lesson 7</th>
+        <td>Workplace vocabulary. Where do you work, why? Do you prefer it to other jobs you have had? (Using comparative adjectives from lesson 2).</td>
       </tr>
       <tr>
-        <th>Lesson 8:</th>
+        <th>Lesson 8</th>
         <td>Technology. What technology do you use, why do you find it useful? Is it always a good thing?</td>
       </tr>
       <tr>
-        <th>Lesson 9:</th>
+        <th>Lesson 9</th>
         <td>Day out in the mall. Describe activities one might do in various stores, express preference for particular shops.</td>
       </tr>
       <tr>
-        <th>Lesson 10:</th>
+        <th>Lesson 10</th>
         <td>Going on holiday! Describing activities, food, and people you would spend time with.</td>
       </tr>
 

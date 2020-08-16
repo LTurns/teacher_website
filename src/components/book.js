@@ -83,16 +83,16 @@ export default class Book extends React.Component {
     return(
 
      <div className="page-section" id="booking">
-        <h1 id="about_title" className="section-heading text-center">BOOKING</h1>
-        {/* <div className="container"> */}
+        <h1 id="booking_title" className="section-heading text-center"></h1>
+        <div className="container">
       <div className="row" id="form">
         <div className="col-lg-12">
          <div id="confirm">
            <div>
-             <p className="confirmation text-center">Your booking enquiry has been submitted successfully!<br></br><br></br>I will be in touch to arrange a zoom call within the next few days.<br></br>In the meantime, please feel free to get in touch at : <br></br><br></br><a id="email" href="mailto:englishmasterteacher@gmail.com">englishmasterteacher@gmail.com</a></p>
+             <p className="confirmation text-center">Your booking enquiry has been submitted successfully!<br></br><br></br>I will be in touch within the next few days to arrange a Zoom call.</p>
            </div>
            </div>
-           {/* </div> */}
+           </div>
            </div>
            </div>
          </div>)
@@ -100,18 +100,19 @@ export default class Book extends React.Component {
    } else {
     return (
          <div className="page-section" id="booking">
-         <h1 id="about_title" className="section-heading text-center"></h1>
+         <h1 id="booking_title" className="section-heading text-center"></h1>
     <div className="container">
       <div className="row" id="form">
         <div className="col-lg-12">
          <div id="confirm">
-         <p className="booking-intro text-center"> Please select a service and fill in the required details.<br></br>I will be in touch shortly!</p>
+         <p className="booking-intro text-center"> Please select a service and fill in the required details</p>
 
          <form id="bookForm" name="sentMessage" noValidate="novalidate" onSubmit={this.onSubmit}>
 
 
          <div className="form-group mx-auto">
-         <select className="dropdown text-center mx-auto" id="dropdown" name="service"
+          <center>
+         <select className="dropdown mx-auto" id="dropdown" name="service"
               onChange={this._handleChange}
               placeholder="Select a service"
               ref={ref => {
@@ -123,6 +124,7 @@ export default class Book extends React.Component {
               <option value="5 Hour Mini Course">5 Hour Mini Course</option>
               <option value="10 Hour Progressive Course">10 Hour Progressive Course</option>
             </select>
+            </center>
             </div>
 
 
