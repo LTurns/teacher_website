@@ -1,4 +1,7 @@
 
+
+## English Master Teacher Website ##
+
 This project was completed under a client brief from a friend. 
 
 They wanted a professional looking site to go along with their current business - a teacher service tailored to those learning to speak and write English. 
