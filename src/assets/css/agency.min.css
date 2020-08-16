@@ -105,7 +105,7 @@
  background-position:center center;background-size:cover;
 } 
 
- #about_title, #services_title, #prices_title, #booking_title {
+ #about_title, #services_title, #prices_title, #booking_title, #contact_title {
   font-size: 40px;
   font-weight: 450px;
   background-color:#EDEDED;
@@ -394,4 +394,10 @@ th {
 #sendMessageButton {
   background-color:  #add8e6;
   margin-top: 3%;
+}
+
+@media(max-width:768px){
+ #contact_title:before{
+   content:"CONTACT";
+ }
 }
