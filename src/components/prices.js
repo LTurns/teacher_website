@@ -18,8 +18,8 @@ export default class Price extends React.Component {
               <table class="table table-light">
                 <thead>
                   <tr>
-                    <th>Service</th>
-                    <th>Price (hourly rate)</th>
+                    <td><strong>Service</strong></td>
+                    <td><strong>Price (hourly rate)</strong></td>
                   </tr>
                 </thead>
                 <tbody>
