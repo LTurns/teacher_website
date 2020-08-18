@@ -134,10 +134,10 @@ export default class Contact extends React.Component {
                         name="name"
                         type="text"
                         placeholder="Your Name *"
-                        required="required"
                         data-validation-required-message="Please enter your name."
                         value={this.state.name}
                         onChange={this.changeValue}
+                        required
                       />
                       <p className="help-block text-danger"></p>
                     </div>
@@ -148,7 +148,6 @@ export default class Contact extends React.Component {
                         type="email"
                         name="email"
                         placeholder="Your Email *"
-                        required="required"
                         data-validation-required-message="Please enter your email address."
                         value={this.state.email}
                         onChange={this.changeValue}
@@ -162,7 +161,7 @@ export default class Contact extends React.Component {
                         type="tel"
                         name="phone"
                         placeholder="Your Phone *"
-                        required="required"
+                        required
                         data-validation-required-message="Please enter your phone number."
                         value={this.state.phone}
                         onChange={this.changeValue}

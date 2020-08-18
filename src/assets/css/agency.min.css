@@ -423,11 +423,6 @@ th {
   padding-bottom: 3%;
 }
 
-#email {
-  text-decoration: none;
-  color: coral;
-}
-
 .form-group {
   width: 50%;
   display: block;
@@ -440,11 +435,11 @@ th {
     display: block;
     font-size: 13px;
     padding-bottom: 2%;
+    margin-bottom: 5%;
   }
 
   #confirm {
     margin-top: 2%;
-    margin-bottom: 10%;
   }
 
 
@@ -516,3 +511,9 @@ input[text] {
   background-color: #add8e6;
   margin-top: 3%;
 }
+
+#email {
+  text-decoration: none;
+  color: coral;
+}
+
