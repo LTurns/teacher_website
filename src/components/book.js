@@ -11,6 +11,7 @@ export default class Book extends React.Component {
       service: "",
       topics: "",
       submitted: false,
+      type: "Booking",
     };
 
     this.changeValue = this.changeValue.bind(this);
@@ -30,7 +31,7 @@ export default class Book extends React.Component {
     });
 
     const post = {
-      // service: this.state.service,
+      service: this.state.service,
       name: this.state.name,
       phone: this.state.phone,
       email: this.state.email,
@@ -44,18 +45,14 @@ export default class Book extends React.Component {
       },
     };
 
-    axios.post("http://localhost:4000/api/new-student",
-        axiosConfig,
-        post
-      )
-      .then(function (response) {
+    axios.post("http://localhost:4000/api/new-student", post, axiosConfig)
+
+      .then((response) => {
         console.log(response);
-        console.log("hey!");
       })
-      .catch(function (error) {
+      .catch((error) => {
         console.log(error);
       });
-
     this.reset();
   };
 
@@ -64,7 +61,6 @@ export default class Book extends React.Component {
       name: "",
       phone: "",
       email: "",
-      service: "",
       topics: "",
     });
   }
@@ -121,18 +117,18 @@ export default class Book extends React.Component {
                           className="dropdown mx-auto"
                           id="dropdown"
                           name="service"
-                          onChange={this._handleChange}
+                          onChange={this.changeValue}
                           placeholder="Select a service"
                           ref={(ref) => {
                             this._select = ref;
                           }}
                           defaultValue={this.state.service}
                         >
-                          <option value="Single Lesson">Single Lesson</option>
-                          <option value="5 Hour Mini Course">
+                          <option name="service" value="Single Lesson">Single Lesson</option>
+                          <option name="service" value="5 Hour Mini Course">
                             5 Hour Mini Course
                           </option>
-                          <option value="10 Hour Progressive Course">
+                          <option name="service" value="10 Hour Progressive Course">
                             10 Hour Progressive Course
                           </option>
                         </select>

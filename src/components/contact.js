@@ -55,8 +55,9 @@ export default class Contact extends React.Component {
     
       axios.post('http://localhost:4000/api/new-enquiry', post, axiosConfig)
 
-      .then(() => {
+      .then((response) => {
         console.log("Data has been sent to server");
+        console.log(response);
       })
 
       .catch((error) => {
