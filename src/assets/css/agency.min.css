@@ -277,6 +277,7 @@ header.masthead .intro-text .intro-heading {
 
   #chris {
     margin-bottom: 0;
+    opacity: 1;
   }
 
   .timeline-panel {
@@ -298,6 +299,10 @@ header.masthead .intro-text .intro-heading {
   background-position: center center;
   background-size: cover;
   padding-bottom: 7%;
+}
+
+table {
+  opacity: 0.8;
 }
 
 td {
@@ -322,7 +327,7 @@ th {
 }
 
 #officepic {
-  height: 413px;
+  height: 310px;
   margin-top: 2%;
 }
 
@@ -364,7 +369,7 @@ th {
   margin-top: 2%;
   font-size: 13px;
   letter-spacing: 1px;
-  width: 88%;
+  width: 94%;
 }
 
 #continue_button,
