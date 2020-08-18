@@ -46,16 +46,14 @@ export default class Contact extends React.Component {
     // https://tranquil-taiga-20049.herokuapp.com/api/form'
     // "https://tranquil-taiga-20049.herokuapp.com/api/new-enquiry"
 
-    axios({
-      url: "https://localhost:4000/api/new-enquiry",
-      method: "POST",
-      data: post,
-      headers: axiosConfig
-    })
+    // axios({
+    //   url: "https://localhost:4000/api/new-enquiry",
+    //   method: "POST",
+    //   data: post,
+    //   headers: axiosConfig,
+    // })
     
-      // axios.post('http://localhost:4000/api/new-student', {
-      //   post, axiosConfig
-      // })
+      axios.post('http://localhost:4000/api/new-enquiry', post, axiosConfig)
 
       .then(() => {
         console.log("Data has been sent to server");
