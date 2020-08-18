@@ -44,8 +44,9 @@ export default class Book extends React.Component {
       },
     };
 
+    // "https://tranquil-taiga-20049.herokuapp.com/api/new-student"
     axios
-      .post("https://tranquil-taiga-20049.herokuapp.com/api/new-student", {
+      .post("https://localhost:4000/api/new-student", {
         axiosConfig,
         post,
       })

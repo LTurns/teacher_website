@@ -44,9 +44,10 @@ export default class Contact extends React.Component {
       },
     };
     // https://tranquil-taiga-20049.herokuapp.com/api/form'
+    // "https://tranquil-taiga-20049.herokuapp.com/api/new-enquiry"
 
     axios({
-      url: "https://tranquil-taiga-20049.herokuapp.com/api/new-enquiry",
+      url: "https://localhost:4000/api/new-enquiry",
       method: "POST",
       data: post,
       headers: axiosConfig,
