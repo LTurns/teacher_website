@@ -8,7 +8,7 @@
 
 
 #mainNav .navbar-brand {
-  font-size: 14px;
+  font-size: 12px;
   color: black;
   font-family: "Kaushan Script", -apple-system, BlinkMacSystemFont, "Segoe UI",
     Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji",
@@ -184,7 +184,7 @@ header.masthead .intro-text .intro-heading {
     background-color: white;
     color: black;
     opacity: 0.7;
-    width: 170px;
+    width: 230px;
   }
 }
 
@@ -256,13 +256,13 @@ header.masthead .intro-text .intro-heading {
   #prices_title,
   #booking_title,
   #contact_title {
-    font-size: 35px;
-    padding: 2%;
+    font-size: 30px;
+    padding-top: 3%;
     font-weight: 450px;
     background-color: #ededed;
     opacity: 0.7;
-    padding: 30px;
-    padding-top: 50px;
+    padding-bottom: 10px;
+    padding-top: 55px;
     visibility: visible;
   }
 
@@ -327,13 +327,14 @@ th {
 }
 
 #officepic {
-  height: 310px;
+  height: 414px;
   margin-top: 2%;
 }
 
 @media (max-width: 768px) {
   #officepic {
     margin-top: 0%;
+    height: 330px;
   }
 
   th {
