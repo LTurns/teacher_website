@@ -39,7 +39,7 @@ export default class Contact extends React.Component {
 
     let axiosConfig = {
       headers: {
-        "Content-Type": "application/json;",
+        "Content-Type": "application/json",
         "Access-Control-Allow-Origin": "*",
       },
     };
@@ -50,8 +50,9 @@ export default class Contact extends React.Component {
       url: "https://localhost:4000/api/new-enquiry",
       method: "POST",
       data: post,
-      headers: axiosConfig,
+      headers: axiosConfig
     })
+    
       // axios.post('http://localhost:4000/api/new-student', {
       //   post, axiosConfig
       // })
