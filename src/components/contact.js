@@ -61,8 +61,8 @@ export default class Contact extends React.Component {
         console.log("Data has been sent to server");
       })
 
-      .catch(() => {
-        console.log("error");
+      .catch((error) => {
+        console.log(error);
       });
     this.reset();
   };
