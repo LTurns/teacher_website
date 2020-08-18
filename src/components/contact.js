@@ -46,7 +46,7 @@ export default class Contact extends React.Component {
     // https://tranquil-taiga-20049.herokuapp.com/api/form'
 
     axios({
-      url: "http://localhost:4000/api/new-student",
+      url: "https://tranquil-taiga-20049.herokuapp.com/api/form",
       method: "POST",
       data: post,
       headers: axiosConfig,
