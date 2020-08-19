@@ -181,7 +181,7 @@ export default class Contact extends React.Component {
                         id="phone"
                         type="tel"
                         name="phone"
-                        placeholder="Your Phone *"
+                        placeholder="Your Phone"
                         required
                         data-validation-required-message="Please enter your phone number."
                         value={this.state.phone}
@@ -194,7 +194,7 @@ export default class Contact extends React.Component {
                         className="form-control"
                         id="message"
                         name="message"
-                        placeholder="Your Message *"
+                        placeholder="Your Message"
                         required="required"
                         data-validation-required-message="Please enter a message."
                         value={this.state.message}
