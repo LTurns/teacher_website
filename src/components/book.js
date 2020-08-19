@@ -12,6 +12,7 @@ export default class Book extends React.Component {
       topics: "",
       submitted: false,
       type: "Booking",
+      errors: ""
     };
 
     this.changeValue = this.changeValue.bind(this);
@@ -24,37 +25,66 @@ export default class Book extends React.Component {
     });
   };
 
+  handleValidation(){
+    let formIsValid = true;
+    let errors = "";
+
+   
+    if(this.state.name === "")
+    {
+       formIsValid = false 
+       errors = "Name is required."
+    }
+
+    if(this.state.email === ""){
+      formIsValid = false 
+       errors = "Email is required."
+    }
+
+    if((this.state.email === "") && (this.state.name === "")){
+      formIsValid = false 
+      errors = "Email and Name are required."
+    }
+
+    this.setState({ errors: errors})
+     return formIsValid;
+  }
+
   onSubmit = (event) => {
     event.preventDefault();
-    this.setState({
-      submitted: true,
-    });
 
-    const post = {
-      service: this.state.service,
-      name: this.state.name,
-      phone: this.state.phone,
-      email: this.state.email,
-      topics: this.state.topics,
-    };
-
-    let axiosConfig = {
-      headers: {
-        "Content-Type": "application/json;",
-        "Access-Control-Allow-Origin": "*",
-      },
-    };
-
-    axios.post("http://localhost:4000/api/new-student", post, axiosConfig)
-
-      .then((response) => {
-        console.log(response);
-      })
-      .catch((error) => {
-        console.log(error);
+    if(this.handleValidation()){
+      this.setState({
+        submitted: true,
       });
-    this.reset();
-  };
+      const post = {
+        service: this.state.service,
+        name: this.state.name,
+        phone: this.state.phone,
+        email: this.state.email,
+        topics: this.state.topics,
+      };
+  
+      let axiosConfig = {
+        headers: {
+          "Content-Type": "application/json;",
+          "Access-Control-Allow-Origin": "*",
+        },
+      };
+  
+      axios.post("http://localhost:4000/api/new-student", post, axiosConfig)
+  
+        .then((response) => {
+          console.log(response);
+        })
+        .catch((error) => {
+          console.log(error);
+        });
+      this.reset();
+
+    } 
+    };
+
 
   reset() {
     this.setState({
@@ -161,7 +191,7 @@ export default class Book extends React.Component {
                         value={this.state.email}
                         onChange={this.changeValue}
                       />
-                      <p className="help-block text-danger"></p>
+                      {/* <p className="help-block text-danger"></p> */}
                     </div>
                     <div className="form-group mx-auto">
                       <input
@@ -169,7 +199,7 @@ export default class Book extends React.Component {
                         id="phone"
                         type="tel"
                         name="phone"
-                        placeholder="Your Phone *"
+                        placeholder="Your Phone"
                         required="required"
                         data-validation-required-message="Please enter your phone number."
                         value={this.state.phone}
@@ -187,6 +217,7 @@ export default class Book extends React.Component {
                         onChange={this.changeValue}
                       ></textarea>
                     </div>
+                    <center><span id="required_fields" style={{color: "red"}}>{this.state.errors}</span></center>
 
                     <div className="clearfix"></div>
                     <div className="col-lg-12 text-center">

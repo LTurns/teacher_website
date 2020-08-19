@@ -11,7 +11,7 @@ export default class Contact extends React.Component {
       message: "",
       submitted: false,
       type: "Enquiry",
-      errors: {}
+      errors: ""
     };
 
     this.changeValue = this.changeValue.bind(this);
@@ -24,20 +24,34 @@ export default class Contact extends React.Component {
     });
   };
 
-  // handleValidation(){
-  //   let errors = {}
-  //   // let formIsValid = true; 
+  handleValidation(){
+    let formIsValid = true;
+    let errors = "";
 
-  //   if(!this.state.email["email"]){
-  //     formIsValid = false;
-  //     errors["email"] = "Cannot be empty.";
-  //   }
-  // }
+    if(this.state.name === "")
+    {
+       formIsValid = false 
+       errors = "Name is required."
+    }
+
+    if(this.state.email === ""){
+      formIsValid = false 
+       errors = "Email is required."
+    }
+
+    if((this.state.email === "") && (this.state.name === "")){
+      formIsValid = false 
+      errors = "Email and Name are required."
+    }
+
+    this.setState({ errors: errors})
+     return formIsValid;
+  }
 
   onSubmit = (event) => {
     event.preventDefault();
 
-    // if(this.handleValidation()){
+    if(this.handleValidation()){
       this.setState({
         submitted: true,
       });
@@ -69,7 +83,7 @@ export default class Contact extends React.Component {
         });
 
       this.reset();
-    // }
+     }
   };
     
 
@@ -159,7 +173,6 @@ export default class Contact extends React.Component {
                         value={this.state.email}
                         onChange={this.changeValue}
                       />
-                      <span style={{color: "red"}}>{this.state.errors["email"]}</span>
                       <p className="help-block text-danger"></p>
                     </div>
                     <div className="form-group mx-auto">
@@ -192,6 +205,8 @@ export default class Contact extends React.Component {
                     <div className="clearfix"></div>
                     <div className="col-lg-12 text-center">
                       <div id="success"></div>
+                      <center><span id="required_fields" style={{color: "red"}}>{this.state.errors}</span></center>
+                      
                       <button
                         id="sendMessageButton"
                         className="btn btn-primary btn-xl text-uppercase"

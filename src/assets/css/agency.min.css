@@ -453,6 +453,12 @@ th {
   font-size: 13px;
 }
 
+#required_fields {
+  letter-spacing: 1px;
+  font-size: 13px;
+  padding-bottom: 1%;
+}
+
 @media (max-width: 768px) {
   .form-group {
     width: 70%;
@@ -487,6 +493,7 @@ th {
   font-size: 13px;
   padding-bottom: 1%;
 }
+
 
 ::placeholder {
   font-size: 12px;
