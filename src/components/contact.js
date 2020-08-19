@@ -11,6 +11,7 @@ export default class Contact extends React.Component {
       message: "",
       submitted: false,
       type: "Enquiry",
+      errors: {}
     };
 
     this.changeValue = this.changeValue.bind(this);
@@ -23,48 +24,54 @@ export default class Contact extends React.Component {
     });
   };
 
+  // handleValidation(){
+  //   let errors = {}
+  //   // let formIsValid = true; 
+
+  //   if(!this.state.email["email"]){
+  //     formIsValid = false;
+  //     errors["email"] = "Cannot be empty.";
+  //   }
+  // }
+
   onSubmit = (event) => {
     event.preventDefault();
-    this.setState({
-      submitted: true,
-    });
 
-    const post = {
-      message: this.state.message,
-      name: this.state.name,
-      phone: this.state.phone,
-      email: this.state.email,
-      type: this.state.type,
-    };
-
-    let axiosConfig = {
-      headers: {
-        "Content-Type": "application/json",
-        "Access-Control-Allow-Origin": "*",
-      },
-    };
-    // https://tranquil-taiga-20049.herokuapp.com/api/form'
-    // "https://tranquil-taiga-20049.herokuapp.com/api/new-enquiry"
-
-    // axios({
-    //   url: "https://localhost:4000/api/new-enquiry",
-    //   method: "POST",
-    //   data: post,
-    //   headers: axiosConfig,
-    // })
-    
-      axios.post('http://localhost:4000/api/new-enquiry', post, axiosConfig)
-
-      .then((response) => {
-        console.log("Data has been sent to server");
-        console.log(response);
-      })
-
-      .catch((error) => {
-        console.log(error);
+    // if(this.handleValidation()){
+      this.setState({
+        submitted: true,
       });
-    this.reset();
+  
+      const post = {
+        message: this.state.message,
+        name: this.state.name,
+        phone: this.state.phone,
+        email: this.state.email,
+        type: this.state.type,
+      };
+  
+      let axiosConfig = {
+        headers: {
+          "Content-Type": "application/json",
+          "Access-Control-Allow-Origin": "*",
+        },
+      };
+      
+        axios.post('http://localhost:4000/api/new-enquiry', post, axiosConfig)
+  
+        .then((response) => {
+          console.log("Data has been sent to server");
+          console.log(response);
+        })
+  
+        .catch((error) => {
+          console.log(error);
+        });
+
+      this.reset();
+    // }
   };
+    
 
   reset() {
     this.setState({
@@ -90,7 +97,7 @@ export default class Contact extends React.Component {
               <div className="col-lg-12">
                 <div id="contacts">
                   <p className="confirmation text-center">
-                    Thank you for your query. I will be in touch shortly!
+                    Thank you for your enquiry. I will be in touch shortly!
                   </p>
                 </div>
               </div>
@@ -152,6 +159,7 @@ export default class Contact extends React.Component {
                         value={this.state.email}
                         onChange={this.changeValue}
                       />
+                      <span style={{color: "red"}}>{this.state.errors["email"]}</span>
                       <p className="help-block text-danger"></p>
                     </div>
                     <div className="form-group mx-auto">

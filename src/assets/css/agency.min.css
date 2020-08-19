@@ -432,6 +432,13 @@ th {
   opacity: 0.9;
 }
 
+.dropdown {
+  font-size: 13px;
+  letter-spacing: 1px;
+  color: grey;
+  padding-bottom: 2%;
+}
+
 .booking-intro {
   color: black;
   letter-spacing: 1px;
@@ -478,31 +485,21 @@ th {
   color: black;
   letter-spacing: 1px;
   font-size: 13px;
-  padding-bottom: 3%;
+  padding-bottom: 1%;
 }
 
 ::placeholder {
-  font-size: 13px;
+  font-size: 12px;
   letter-spacing: 1px;
   color: grey;
 }
 
 input[text] {
-  font-size: 13px;
+  font-size: 12px;
   letter-spacing: 1px;
   color: black;
 }
-.footer {
-  background-color: #ededed;
-  font-size: 11px;
-}
 
-.dropdown {
-  font-size: 13px;
-  letter-spacing: 1px;
-  color: grey;
-  padding-bottom: 2%;
-}
 
 .confirmation {
   font-size: 15px;
@@ -516,17 +513,11 @@ input[text] {
 #contacts {
   padding-top: 2%;
   margin-top: 2%;
-  padding-bottom: 5%;
-  margin-bottom: 7%;
+  padding-bottom: 3%;
   background-color: #ededed;
   opacity: 0.9;
-  margin-bottom: 7%;
+  margin-bottom: 8%;
   width: 100%;
-}
-
-#sendMessageButton {
-  background-color: #add8e6;
-  margin-top: 3%;
 }
 
 #email {
@@ -534,3 +525,25 @@ input[text] {
   color: coral;
 }
 
+@media(max-width:768px){
+  #contacts {
+    padding-top: 0%;
+    margin-top: 2%;
+    padding-bottom: 3%;
+    background-color: #ededed;
+    opacity: 0.9;
+    margin-bottom: 5%;
+    width: 100%;
+  }
+
+  #sendMessageButton {
+    background-color: #add8e6;
+    margin-top: 1%;
+  }
+  
+}
+
+.footer {
+  background-color: #ededed;
+  font-size: 11px;
+}
