@@ -16,12 +16,6 @@ it('renders without crashing', () => {
   ReactDOM.render(<About />, div);
   ReactDOM.unmountComponentAtNode(div);
 });
-
-it('matches snapshot', () => {
- const tree = renderer.create(<About />).toJSON
- expect(tree).toMatchSnapshot();
-})
-
 })
 
 // you can use props to check whether your tests are working. Props can be like mocks -
