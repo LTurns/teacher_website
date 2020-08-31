@@ -27,6 +27,8 @@ export default class Services extends React.Component {
                     undergraduates, specialising in literature and art. Contact
                     me for enquires and prices.
                   </li>
+                  <li>All course prices include an assessment of your English level and a one-to-one conversation so we can discuss your aims.</li>
+                  <li>Additionally, I am available for one- on- one tutoring for English students studying GCSE’s, A Levels and equivalent. Whether you require help with coursework, exam preparation, or simply want to get ahead of the rest of your class, we can work together to achieve your goals.</li>
                 </ul>
                 <p className="service-example">
                   Below is a course I designed with one of my regular students.

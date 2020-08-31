@@ -5,16 +5,24 @@ export default class Navigation extends React.Component {
     return (
       <nav
         className="navbar navbar-expand-lg navbar-dark fixed-top"
-        id="mainNav"
-      >
-        <div className="container">
+      >  <a href="/">
+             <img
+                  src={require("../assets/img/emt_logo.png")}
+                  id="logo"
+                  className="img-fluid"
+                  alt=""
+                ></img>
+          </a>
+        <div className="container"  id="mainNav">
+  
           <a
             id="page_top"
             className="navbar-brand js-scroll-trigger mx-auto"
             href="/"
           >
+{/*     
             <strong>E</strong>NGLISH <strong>M</strong>ASTER <strong>T</strong>
-            EACHER
+            EACHER */}
           </a>
           <div className="collapse navbar-collapse" id="navbarResponsive">
             <ul className="navbar-nav text-uppercase ml-auto">
