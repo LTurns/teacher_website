@@ -72,7 +72,7 @@ export default class Book extends React.Component {
         },
       };
   
-      axios.post("http://localhost:4000/api/new-student", post, axiosConfig)
+      axios.post('https://englishmasterteacherbackend.herokuapp.com/api/booking', post, axiosConfig)
   
         .then((response) => {
           console.log(response);
