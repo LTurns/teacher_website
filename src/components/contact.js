@@ -71,7 +71,7 @@ export default class Contact extends React.Component {
         },
       };
       
-        axios.post('http://localhost:4000/api/email', post, axiosConfig)
+        axios.post('https://englishmasterteacherbackend.herokuapp.com/api/email', post, axiosConfig)
   
         .then((response) => {
           console.log("Data has been sent to server");
