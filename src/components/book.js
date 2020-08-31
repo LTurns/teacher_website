@@ -67,7 +67,7 @@ export default class Book extends React.Component {
   
       let axiosConfig = {
         headers: {
-          "Content-Type": "application/json;",
+          "Content-Type": "application/json",
           "Access-Control-Allow-Origin": "*",
         },
       };
@@ -148,17 +148,13 @@ export default class Book extends React.Component {
                           id="dropdown"
                           name="service"
                           onChange={this.changeValue}
-                          placeholder="Select a service"
-                          ref={(ref) => {
-                            this._select = ref;
-                          }}
-                          defaultValue={this.state.service}
+                          value={this.state.service}
                         >
-                          <option name="service" value="Single Lesson">Single Lesson</option>
-                          <option name="service" value="5 Hour Mini Course">
+                          <option value="Single Lesson">Single Lesson</option>
+                          <option value="5 Hour Mini Course">
                             5 Hour Mini Course
                           </option>
-                          <option name="service" value="10 Hour Progressive Course">
+                          <option value="10 Hour Progressive Course">
                             10 Hour Progressive Course
                           </option>
                         </select>
