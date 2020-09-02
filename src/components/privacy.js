@@ -1,5 +1,4 @@
 import React from "react";
-import Navigation from './navigation.js'
 
 export default class Privacy extends React.Component {
   render() {

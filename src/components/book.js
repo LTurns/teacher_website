@@ -1,6 +1,5 @@
 import React from "react";
 import axios from "axios";
-import Navigation from './navigation.js'
 
 export default class Book extends React.Component {
   constructor(props) {

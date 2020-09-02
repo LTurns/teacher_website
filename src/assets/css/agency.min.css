@@ -61,6 +61,10 @@ h6 {
   section {
     padding: 150px 0;
   }
+  
+  .phone_structure {
+    visibility: hidden;
+  }
 }
 
 #mainNav {
