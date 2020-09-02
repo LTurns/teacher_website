@@ -260,20 +260,13 @@ header.masthead .intro-text .intro-heading {
   padding: 5px;
 }
 
-#tefl {
+#tefl, #teaching {
   width: 260px;
-  height: 136px;
+  height: 120px;
   display: block;
   margin-top: 8%;
-  margin-bottom: 1%;
-}
-
-#teaching{
-  width: 260px;
-  height: 136px;
-  display: block;
-  margin-top: 8%;
-  margin-bottom: 1%;
+  margin-bottom: 12%;
+  border-radius: 3%;
 }
 
 #chris {
@@ -306,6 +299,10 @@ header.masthead .intro-text .intro-heading {
     opacity: 1;
   }
 
+  #tefl, #teaching {
+    height: 110px;
+  }
+
   .timeline-panel {
     background-color: #ededed;
     opacity: 0.9;
@@ -320,17 +317,6 @@ header.masthead .intro-text .intro-heading {
 
 #services {
   background-image: url(../img/literature-bookpile.jpg);
-  background-repeat: no-repeat;
-  background-attachment: scroll;
-  background-position: center center;
-  background-size: cover;
-  padding-bottom: 7%;
-}
-
-
-
-#privacy {
-  background-image: url(../img/northern_lights.jpg);
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
@@ -384,7 +370,7 @@ th {
 @media (max-width: 768px) {
   #officepic {
     margin-top: 0%;
-    /* height: 330px; */
+    height: 330px;
   }
 
   th {
@@ -446,6 +432,18 @@ th {
     margin-bottom: 5%;
     width: 94%;
   }
+}
+
+/* PRIVACY */
+
+
+#privacy {
+  background-image: url(../img/northern_lights.jpg);
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  background-size: cover;
+  padding-bottom: 7%;
 }
 
 
