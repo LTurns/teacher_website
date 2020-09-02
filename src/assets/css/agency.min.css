@@ -311,6 +311,8 @@ header.masthead .intro-text .intro-heading {
   padding-bottom: 7%;
 }
 
+
+
 #privacy {
   background-image: url(../img/northern_lights.jpg);
   background-repeat: no-repeat;
@@ -322,6 +324,7 @@ header.masthead .intro-text .intro-heading {
 
 table {
   opacity: 0.8;
+  background-color: #ededed;
 }
 
 td {
@@ -338,26 +341,34 @@ th {
 
 #service-stuff {
   background-color: #ededed;
-  padding: 7%;
+  padding: 5%;
+  font-size: 13px;
+  letter-spacing: 1px;
+  opacity: 0.9;
+}
+
+#service_intro {
+  background-color: #ededed;
   margin-top: 2%;
+  padding: 5%;
   font-size: 13px;
   letter-spacing: 1px;
   opacity: 0.9;
 }
 
 .service-points {
-  padding-bottom: 3%;
+  padding-bottom: 1%;
 }
 
 #officepic {
-  height: 414px;
-  margin-top: 2%;
+  height: 455px;
+  margin-top: 4%;
 }
 
 @media (max-width: 768px) {
   #officepic {
     margin-top: 0%;
-    height: 330px;
+    /* height: 330px; */
   }
 
   th {

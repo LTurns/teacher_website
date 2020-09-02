@@ -1,20 +1,17 @@
 import React from "react";
-import Navigation from './navigation.js'
 
 export default class Services extends React.Component {
   render() {
     return (
       <div className="page-section" id="services">
-        <Navigation />
         <center>
           <h1 id="services_title" className="section-heading text-uppercase">
             SERVICES
           </h1>
         </center>
-        <div className="container" id="table">
+        <div className="container">
           <div className="row no-gutters">
-            <div className="col-lg-6">
-              <div id="service-stuff">
+            <div className="col-lg-6" id="service_intro">
                 <ul>
                   <li className="service-points">
                     Personalised ESL (English as a Second Language) tuition for
@@ -32,7 +29,6 @@ export default class Services extends React.Component {
                   </li>
                   <li className="service-points">Additionally, I am available for one-on-one tutoring for English students studying GCSE’s, A Levels and equivalent. Whether you require help with coursework, exam preparation, or simply want to get ahead of the rest of your class, we can work together to achieve your goals.</li>
                 </ul>
-              </div>
             </div>
             <div className="col-lg-6">
               <img
@@ -42,11 +38,9 @@ export default class Services extends React.Component {
                 alt=""
               ></img>
             </div>
-          </div>
-          <div className="row" id="#table">
-            <div className="col-lg-12">
-              <div id="service-stuff">
-            <p className="service-example">
+            </div>
+            <div className="col-lg-12" id="service-stuff">
+            <p>
                   Below is a course I designed with one of my regular students.
                   She is a Swedish Iranian who was hoping to improve her
                   conversation skills so she could communicate more comfortably
@@ -58,6 +52,7 @@ export default class Services extends React.Component {
                   do in between classes to further develop the skills we had
                   practiced during our time together.
                 </p>
+                       <div className="row" id="#table">
               <table class="table table-light">
                 <tbody>
                   <tr>
@@ -128,8 +123,7 @@ export default class Services extends React.Component {
                 </tbody>
               </table>
               </div> 
-            </div>
-          </div>
+              </div>
         </div>
       </div>
     );

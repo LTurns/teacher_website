@@ -5,7 +5,6 @@ export default class Privacy extends React.Component {
   render() {
     return (
       <div className="page-section" id="privacy">
-        <Navigation />
         <center>
           <h1 id="services_title" className="section-heading text-uppercase">
           PRIVACY

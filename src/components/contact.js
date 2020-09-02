@@ -101,7 +101,6 @@ export default class Contact extends React.Component {
     if (this.state.submitted === true) {
       return (
         <div className="page-section1" id="contact">
-          <Navigation />
           <h1
             id="contact_title"
             className="section-heading text-uppercase text-center"
@@ -124,7 +123,7 @@ export default class Contact extends React.Component {
     } else {
       return (
         <div className="page-section1" id="contact">
-          <Navigation />
+
           <h1
             id="contact_title"
             className="section-heading text-uppercase text-center"

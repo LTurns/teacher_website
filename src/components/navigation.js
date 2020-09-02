@@ -1,4 +1,7 @@
 import React from "react";
+import {
+  Link
+} from "react-router-dom";
 
 export default class Navigation extends React.Component {
   render() {
@@ -13,11 +16,11 @@ export default class Navigation extends React.Component {
     <div id="navbarSupportedContent" class="collapse navbar-collapse">
       <ul class="navbar-nav ml-auto">
         {/* <li class="nav-item active"><a href="#" class="nav-link">Home <span class="sr-only">(current)</span></a></li> */}
-        <li className="nav-item"><a className="nav-link" href="#about">About</a></li>
-        <li class="nav-item"><a href="#services" class="nav-link">Services</a></li>
-        <li class="nav-item"><a href="#book" class="nav-link">Prices and Booking</a></li>
-        <li class="nav-item"><a href="#book" class="nav-link">Privacy</a></li>
-        <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+        <li className="nav-item"><Link to="/about" className="nav-link">About</Link></li>
+        <li class="nav-item"><Link to="/services" className="nav-link">Services</Link></li>
+        <li class="nav-item"><Link to="/book" className="nav-link">Prices and Booking</Link></li>
+        <li class="nav-item"><Link to="/privacy" className="nav-link">Privacy</Link></li>
+        <li class="nav-item"><Link to="/contact" className="nav-link">Contact</Link></li>
       </ul>
     </div>
   </div>

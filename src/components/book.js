@@ -100,7 +100,7 @@ export default class Book extends React.Component {
     if (this.state.submitted === true) {
       return (
         <div className="page-section" id="booking">
-          <Navigation />
+      
           <h1 id="booking_title" className="section-heading text-center">
             BOOK
           </h1>
@@ -125,7 +125,7 @@ export default class Book extends React.Component {
     } else {
       return (
         <div className="page-section" id="booking">
-          <Navigation />
+
           <h1 id="booking_title" className="section-heading text-center">
             BOOK
           </h1>

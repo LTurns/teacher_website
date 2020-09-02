@@ -5,7 +5,6 @@ export default class Price extends React.Component {
   render() {
     return (
       <div className="page-section" id="book">
-         <Navigation />
         <center>
           <h1 id="prices_title" className="section-heading text-uppercase">
             PRICES AND BOOKING
@@ -46,7 +45,7 @@ export default class Price extends React.Component {
               <a
                 className="btn btn-primary btn-xl text-uppercase js-scroll-trigger"
                 id="continue_button"
-                href="#booking"
+                href="/booking"
               >
                 Continue to Booking
               </a>

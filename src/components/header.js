@@ -11,7 +11,7 @@ export default class extends React.Component {
             </div>
             <a
               className="btn btn-primary btn-xl text-uppercase js-scroll-trigger"
-              href="#book"
+              href="/book"
             >
               Make a Booking
             </a>
