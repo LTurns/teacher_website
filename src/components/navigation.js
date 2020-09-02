@@ -3,53 +3,27 @@ import React from "react";
 export default class Navigation extends React.Component {
   render() {
     return (
-      <nav
-        className="navbar navbar-expand-lg navbar-dark fixed-top"
-      >  <a href="/">
-             <img
-                  src={require("../assets/img/emt_logo.png")}
-                  id="logo"
-                  className="img-fluid"
-                  alt=""
-                ></img>
-          </a>
-        <div className="container"  id="mainNav">
-  
-          <a
-            id="page_top"
-            className="navbar-brand js-scroll-trigger mx-auto"
-            href="/"
-          >
-{/*     
-            <strong>E</strong>NGLISH <strong>M</strong>ASTER <strong>T</strong>
-            EACHER */}
-          </a>
-          <div className="collapse navbar-collapse" id="navbarResponsive">
-            <ul className="navbar-nav text-uppercase ml-auto">
-              <li className="nav-item">
-                <a className="nav-link js-scroll-trigger" href="#about">
-                  About
-                </a>
-              </li>
-              <li className="nav-item">
-                <a className="nav-link js-scroll-trigger" href="#services">
-                  Services
-                </a>
-              </li>
-              <li className="nav-item">
-                <a className="nav-link js-scroll-trigger" href="#book">
-                  Prices and Booking
-                </a>
-              </li>
-              <li className="nav-item">
-                <a className="nav-link js-scroll-trigger" href="#contact">
-                  Contact
-                </a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </nav>
+<div>
+      <nav class="navbar navbar-expand-lg py-3 navbar-light bg-dark" id="mainNav">
+  <div class="container">
+    <a href="#" className="navbar-brand  mx-auto">
+      <img src={require("../assets/img/logo_2.png")} width="90" alt="" id="logo"/>
+    </a>
+
+    <div id="navbarSupportedContent" class="collapse navbar-collapse">
+      <ul class="navbar-nav ml-auto">
+        {/* <li class="nav-item active"><a href="#" class="nav-link">Home <span class="sr-only">(current)</span></a></li> */}
+        <li className="nav-item"><a className="nav-link" href="#about">About</a></li>
+        <li class="nav-item"><a href="#services" class="nav-link">Services</a></li>
+        <li class="nav-item"><a href="#book" class="nav-link">Prices and Booking</a></li>
+        <li class="nav-item"><a href="#book" class="nav-link">Privacy</a></li>
+        <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+</div>
+
     );
   }
 }

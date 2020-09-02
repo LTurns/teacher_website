@@ -1,5 +1,6 @@
 import React from "react";
 import axios from "axios";
+import Navigation from './navigation.js'
 
 export default class Book extends React.Component {
   constructor(props) {
@@ -99,6 +100,7 @@ export default class Book extends React.Component {
     if (this.state.submitted === true) {
       return (
         <div className="page-section" id="booking">
+          <Navigation />
           <h1 id="booking_title" className="section-heading text-center">
             BOOK
           </h1>
@@ -123,6 +125,7 @@ export default class Book extends React.Component {
     } else {
       return (
         <div className="page-section" id="booking">
+          <Navigation />
           <h1 id="booking_title" className="section-heading text-center">
             BOOK
           </h1>

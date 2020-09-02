@@ -1,9 +1,11 @@
 import React from "react";
+import Navigation from './navigation.js'
 
 export default class About extends React.Component {
   render() {
     return (
       <div className="page-section" id="about">
+        <Navigation />
         <center>
           <h1 id="about_title" className="section-heading text-uppercase">
             ABOUT

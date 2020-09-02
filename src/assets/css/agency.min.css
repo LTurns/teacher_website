@@ -8,16 +8,17 @@
 
 
 #mainNav .navbar-brand {
-  font-size: 14px;
-  color: black;
   font-family: "Kaushan Script", -apple-system, BlinkMacSystemFont, "Segoe UI",
     Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji",
     "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-  /* background-color: #ededed;  */
-  opacity: 0.7;
   border-radius: 2%;
   letter-spacing: 2px;
   display: block; 
+  opacity: 0.9 !important;
+}
+
+#logo {
+  border-radius: 5%;
 }
 
 #mainNav .navbar-brand.active,
@@ -28,17 +29,12 @@
 }
 
 #mainNav .navbar-nav .nav-item .nav-link {
-  font-size: 80%;
-  font-weight: 400;
-  padding: 0.75em 0;
+  font-size: 90%;
   letter-spacing: 1px;
-  color: black;
+  color: white;
   font-family: Montserrat, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
     "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
     "Segoe UI Symbol", "Noto Color Emoji";
-  background-color: #ededed;
-  opacity: 0.7;
-  border-radius: 2%;
 }
 #mainNav .navbar-nav .nav-item .nav-link.active,
 #mainNav .navbar-nav .nav-item .nav-link:hover {
@@ -67,9 +63,8 @@ h6 {
   }
 }
 
-#mainNav .navbar-nav .nav-item .nav-link,
-#page_top {
-  padding: 1.1em 1em !important;
+#mainNav {
+  padding: 1.1em 4em !important;
 }
 
 ::-moz-selection {
@@ -158,32 +153,21 @@ header.masthead .intro-text .intro-heading {
     "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
     "Segoe UI Symbol", "Noto Color Emoji";
 }
-#logo {
-  width: 85px;
-  height: 72px;
-  border-radius: 5%;
-  position: inherit;
-  
-}
 
 @media (max-width: 768px) {
-
   #mainNav .navbar-brand {
-    font-size: 11.5px;
+    font-size: 14px;
     color: black;
     font-family: "Kaushan Script", -apple-system, BlinkMacSystemFont, "Segoe UI",
       Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji",
       "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-    background-color: #ededed;
-    opacity: 0.7;
+    /* background-color: #ededed;
+    opacity: 0.7; */
     border-radius: 2%;
     letter-spacing: 2px;
     display: block;
   }
 
-  #logo {
-    width: 10px;
-  }
 
 
   header.masthead .intro-text {
@@ -216,7 +200,7 @@ header.masthead .intro-text .intro-heading {
 
 @media (min-width: 768px) {
   header.masthead .intro-text {
-    padding-top: 300px;
+    padding-top: 150px;
     padding-bottom: 200px;
   }
 

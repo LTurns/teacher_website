@@ -1,9 +1,11 @@
 import React from "react";
+import Navigation from './navigation.js'
 
 export default class Price extends React.Component {
   render() {
     return (
       <div className="page-section" id="book">
+         <Navigation />
         <center>
           <h1 id="prices_title" className="section-heading text-uppercase">
             PRICES AND BOOKING
