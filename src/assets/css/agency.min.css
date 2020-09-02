@@ -345,6 +345,10 @@ th {
   opacity: 0.9;
 }
 
+.service-points {
+  padding-bottom: 3%;
+}
+
 #officepic {
   height: 414px;
   margin-top: 2%;

@@ -15,35 +15,23 @@ export default class Services extends React.Component {
           <div className="row no-gutters">
             <div className="col-lg-6">
               <div id="service-stuff">
-                <ul className="service-points">
-                  <li>
+                <ul>
+                  <li className="service-points">
                     Personalised ESL (English as a Second Language) tuition for
                     all abilities age 16+.
                   </li>
-                  <li>Focused learning tailored to your aims.</li>
-                  <li>
+                  <li className="service-points">Group courses up to 4 people €20 p/h</li>
+                  <li className="service-points">All course prices include an assessment of your English level and a one-to-one conversation so we can discuss your aims.</li>
+                  <li className="service-points">
                     Preparation for exams, interviews, or just everyday life.
                   </li>
-                  <li>
-                    I also offer proof reading services for university
+                  <li className="service-points">
+                    I offer proof reading services for university
                     undergraduates, specialising in literature and art. Contact
                     me for enquires and prices.
                   </li>
-                  <li>All course prices include an assessment of your English level and a one-to-one conversation so we can discuss your aims.</li>
-                  <li>Additionally, I am available for one- on- one tutoring for English students studying GCSE’s, A Levels and equivalent. Whether you require help with coursework, exam preparation, or simply want to get ahead of the rest of your class, we can work together to achieve your goals.</li>
+                  <li className="service-points">Additionally, I am available for one-on-one tutoring for English students studying GCSE’s, A Levels and equivalent. Whether you require help with coursework, exam preparation, or simply want to get ahead of the rest of your class, we can work together to achieve your goals.</li>
                 </ul>
-                <p className="service-example">
-                  Below is a course I designed with one of my regular students.
-                  She is a Swedish Iranian who was hoping to improve her
-                  conversation skills so she could communicate more comfortably
-                  with her English son-in-law. So we discussed her interests,
-                  subjects that excite her, and the activities she does on a
-                  regular basis. I then included these topics in her learning
-                  over a 10 week lesson plan. We would go through exercises
-                  together in our lessons, and I would then set her some work to
-                  do in between classes to further develop the skills we had
-                  practiced during our time together.
-                </p>
               </div>
             </div>
             <div className="col-lg-6">
@@ -57,6 +45,19 @@ export default class Services extends React.Component {
           </div>
           <div className="row" id="#table">
             <div className="col-lg-12">
+              <div id="service-stuff">
+            <p className="service-example">
+                  Below is a course I designed with one of my regular students.
+                  She is a Swedish Iranian who was hoping to improve her
+                  conversation skills so she could communicate more comfortably
+                  with her English son-in-law. So we discussed her interests,
+                  subjects that excite her, and the activities she does on a
+                  regular basis. I then included these topics in her learning
+                  over a 10 week lesson plan. We would go through exercises
+                  together in our lessons, and I would then set her some work to
+                  do in between classes to further develop the skills we had
+                  practiced during our time together.
+                </p>
               <table class="table table-light">
                 <tbody>
                   <tr>
@@ -126,6 +127,7 @@ export default class Services extends React.Component {
                   </tr>
                 </tbody>
               </table>
+              </div> 
             </div>
           </div>
         </div>

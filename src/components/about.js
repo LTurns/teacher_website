@@ -35,7 +35,7 @@ export default class About extends React.Component {
                     Hey! My name is Chris, I'm a qualified advanced ESL
                     instructor with a BA and Masters degree in English
                     Literature and Creative Writing from Exeter University in
-                    the UK (Top 10 universities in Europe). I've spent time
+                    the UK (Top 10 universities in UK). I've spent time
                     teaching in England and India, and I'm now based in
                     Stockholm.
                   </p>
