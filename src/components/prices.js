@@ -1,5 +1,4 @@
 import React from "react";
-import Navigation from './navigation.js'
 
 export default class Price extends React.Component {
   render() {

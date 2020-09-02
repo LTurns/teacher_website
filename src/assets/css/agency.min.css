@@ -261,7 +261,7 @@ header.masthead .intro-text .intro-heading {
 }
 
 #tefl {
-  width: 250px;
+  width: 260px;
   height: 136px;
   display: block;
   margin-top: 8%;
@@ -269,7 +269,7 @@ header.masthead .intro-text .intro-heading {
 }
 
 #teaching{
-  width: 250px;
+  width: 260px;
   height: 136px;
   display: block;
   margin-top: 8%;
@@ -297,11 +297,6 @@ header.masthead .intro-text .intro-heading {
     visibility: visible;
   }
 
-  #tefl {
-    width: 40%;
-    display: block;
-    margin-top: 8%;
-  }
   .intro-body p {
     font-size: 13px;
   }
