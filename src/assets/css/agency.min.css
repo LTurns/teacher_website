@@ -172,8 +172,6 @@ header.masthead .intro-text .intro-heading {
     display: block;
   }
 
-
-
   header.masthead .intro-text {
     padding-top: 150px;
     padding-bottom: 230px;
@@ -229,6 +227,10 @@ header.masthead .intro-text .intro-heading {
   background-size: cover;
 }
 
+#certificates {
+  display: inline;
+}
+
 #about_title,
 #services_title,
 #prices_title,
@@ -252,8 +254,23 @@ header.masthead .intro-text .intro-heading {
   margin-bottom: 2.5%;
 }
 
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
 #tefl {
-  width: 40%;
+  width: 250px;
+  height: 136px;
+  display: block;
+  margin-top: 8%;
+  margin-bottom: 1%;
+}
+
+#teaching{
+  width: 250px;
+  height: 136px;
   display: block;
   margin-top: 8%;
   margin-bottom: 1%;

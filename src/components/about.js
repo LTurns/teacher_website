@@ -58,13 +58,26 @@ export default class About extends React.Component {
                     hearing from you!
                   </p>
 
-                  <img
+                  <div class="row">
+  <div className="column mx-auto" >
+  <img
                     src={require("../assets/img/tefl.png")}
                     id="tefl"
-                    className="img-fluid center mx-auto"
+                    className="img-fluid d-flex mx-auto"
                     alt=""
                   ></img>
-                </div>
+  </div>
+  <div className="column mx-auto">
+  <img
+                    src={require("../assets/img/advanced_teaching.png")}
+                    id="teaching"
+                    className="img-fluid d-flex mx-auto"
+                    alt=""
+                  ></img>
+  </div>
+  </div>
+  </div>
+
               </div>
             </div>
             <div className="col-lg-12">
