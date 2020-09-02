@@ -548,8 +548,9 @@ input[text] {
   letter-spacing: 1px;
   color: black;
   opacity: 0.9;
-  margin-top: 5%;
-  padding: 7%;
+  margin-top: 8%;
+  margin-bottom: 8%;
+  padding: 20%;
 }
 
 #contacts {
