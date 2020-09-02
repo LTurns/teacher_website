@@ -151,7 +151,7 @@ export default class Book extends React.Component {
                           name="service"
                           onChange={this.changeValue}
                           value={this.state.service}
-                        >
+                        > <option>Choose Option</option>
                           <option value="Single Lesson">Single Lesson</option>
                           <option value="5 Hour Mini Course">
                             5 Hour Mini Course
