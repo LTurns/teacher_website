@@ -110,7 +110,7 @@ export default class Contact extends React.Component {
             <div className="row">
               <div className="col-lg-12">
                 <div id="contacts">
-                  <p className="confirmation text-center">
+                  <p className="confirmation-contact text-center">
                     Thank you for your enquiry. I will be in touch shortly!
                   </p>
                 </div>

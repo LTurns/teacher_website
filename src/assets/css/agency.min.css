@@ -547,8 +547,18 @@ input[text] {
   color: black;
   opacity: 0.9;
   margin-top: 8%;
-  margin-bottom: 20%;
+  margin-bottom: 25%;
   padding: 20%;
+}
+
+.confirmation-contact {
+  font-size: 15px;
+  letter-spacing: 1px;
+  color: black;
+  opacity: 0.9;
+  margin-top: 8%;
+  margin-bottom: 30%;
+  padding: 30%;
 }
 
 #contacts {

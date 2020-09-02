@@ -17,7 +17,7 @@ export default class Services extends React.Component {
                     Personalised ESL (English as a Second Language) tuition for
                     all abilities age 16+.
                   </li>
-                  <li className="service-points">Group courses up to 4 people €20 p/h</li>
+                  <li className="service-points">Group courses up to 4 people €20p/h.</li>
                   <li className="service-points">All course prices include an assessment of your English level and a one-to-one conversation so we can discuss your aims.</li>
                   <li className="service-points">
                     Preparation for exams, interviews, or just everyday life.
