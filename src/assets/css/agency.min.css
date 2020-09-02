@@ -311,6 +311,15 @@ header.masthead .intro-text .intro-heading {
   padding-bottom: 7%;
 }
 
+#privacy {
+  background-image: url(../img/northern_lights.jpg);
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  background-size: cover;
+  padding-bottom: 7%;
+}
+
 table {
   opacity: 0.8;
 }

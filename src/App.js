@@ -7,6 +7,7 @@ import Navigation from "./components/navigation";
 import Header from "./components/header";
 import Services from "./components/services";
 import Footer from "./components/footer";
+import Privacy from './components/privacy';
 import "./App.css";
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
       <About />
       <Services />
       <Price />
+      <Privacy />
       <Book />
       <Contact />
       <Footer />
