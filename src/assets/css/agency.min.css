@@ -547,8 +547,8 @@ input[text] {
   color: black;
   opacity: 0.9;
   margin-top: 8%;
-  margin-bottom: 25%;
-  padding: 20%;
+  margin-bottom: 5%;
+  padding: 7%;
 }
 
 .confirmation-contact {
@@ -557,8 +557,8 @@ input[text] {
   color: black;
   opacity: 0.9;
   margin-top: 8%;
-  margin-bottom: 30%;
-  padding: 30%;
+  margin-bottom: 5%;
+  padding: 7%;
 }
 
 #contacts {
@@ -586,6 +586,30 @@ input[text] {
     margin-bottom: 5%;
     width: 100%;
   }
+
+  .confirmation-contact {
+    font-size: 15px;
+    letter-spacing: 1px;
+    color: black;
+    opacity: 0.9;
+    margin-top: 8%;
+    margin-bottom: 30%;
+    padding: 30%;
+  }
+
+  .confirmation {
+    font-size: 15px;
+    letter-spacing: 1px;
+    color: black;
+    opacity: 0.9;
+    margin-top: 8%;
+    margin-bottom: 25%;
+    padding: 20%;
+  }
+
+  
+
+
 
   #sendMessageButton {
     background-color: #add8e6;
