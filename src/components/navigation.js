@@ -9,7 +9,7 @@ export default class Navigation extends React.Component {
 <div>
       <nav class="navbar navbar-expand-lg py-3 navbar-light bg-dark" id="mainNav">
   <div class="container">
-    <a href="/" className="navbar-brand  mx-auto">
+    <a href="/" className="navbar-brand">
       <img src={require("../assets/img/logo_2.png")} width="90" alt="" id="logo"/>
     </a>
 
