@@ -171,7 +171,7 @@ header.masthead .intro-text .intro-heading {
 
   header.masthead .intro-text {
     padding-top: 150px;
-    padding-bottom: 230px;
+    padding-bottom: 200px;
   }
 
   .btn-xl {
@@ -301,7 +301,7 @@ header.masthead .intro-text .intro-heading {
   }
 
   #tefl, #teaching {
-    height: 110px;
+    height: 85px;
   }
 
   .timeline-panel {
@@ -344,7 +344,7 @@ th {
 
 #service-stuff {
   background-color: #ededed;
-  padding: 5%;
+  padding: 3%;
   font-size: 13px;
   letter-spacing: 1px;
   opacity: 0.9;
@@ -353,7 +353,8 @@ th {
 #service_intro {
   background-color: #ededed;
   margin-top: 2%;
-  padding: 5%;
+  padding: 2%;
+  padding-top: 5%;
   font-size: 13px;
   letter-spacing: 1px;
   opacity: 0.9;
@@ -364,14 +365,15 @@ th {
 }
 
 #officepic {
-  height: 455px;
+  height: 400px;
   margin-top: 4%;
 }
 
 @media (max-width: 768px) {
   #officepic {
     margin-top: 0%;
-    height: 330px;
+    height: 300px;
+    width: 600px;
   }
 
   th {
