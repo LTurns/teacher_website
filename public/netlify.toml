@@ -1,10 +1,4 @@
 [[redirects]]
-from = “https://romantic-darwin-bdd306.netlify.app/”
-to = “https://www.englishmasterteacher.com”
-status = 200
-force = true
-
-[[redirects]]
 from = "/*"
 to = "/index.html"
 status = 200
