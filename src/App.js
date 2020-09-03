@@ -5,7 +5,6 @@ import About from "./components/about";
 import Navigation from "./components/navigation";
 import Header from "./components/header";
 import Services from "./components/services";
-import Footer from "./components/footer";
 import Privacy from './components/privacy';
 import Book from './components/book'
 import {
