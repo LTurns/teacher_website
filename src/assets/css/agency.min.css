@@ -61,10 +61,6 @@ h6 {
   section {
     padding: 150px 0;
   }
-  
-  .phone_structure {
-    visibility: hidden;
-  }
 }
 
 #mainNav {
@@ -138,6 +134,7 @@ header.masthead {
   background-attachment: scroll;
   background-position: center center;
   background-size: cover;
+  height: 100vh;
 }
 
 header.masthead .intro-text .intro-lead-in {

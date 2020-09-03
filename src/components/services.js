@@ -20,9 +20,6 @@ export default class Services extends React.Component {
                   <li className="service-points">Group courses up to 4 people €20p/h.</li>
                   <li className="service-points">All course prices include an assessment of your English level and a one-to-one conversation so we can discuss your aims.</li>
                   <li className="service-points">
-                    Preparation for exams, interviews, or just everyday life.
-                  </li>
-                  <li className="service-points">
                     I offer proof reading services for university
                     undergraduates, specialising in literature and art. Contact
                     me for enquires and prices.
