@@ -49,7 +49,8 @@ export default class Services extends React.Component {
                   do in between classes to further develop the skills we had
                   practiced during our time together.
                 </p>
-                       <div className="row" id="#table">
+            <div className="row" id="#table">
+              <div className="col-lg-12">
               <table class="table table-light">
                 <tbody>
                   <tr>
@@ -119,6 +120,7 @@ export default class Services extends React.Component {
                   </tr>
                 </tbody>
               </table>
+              </div>
               </div> 
               </div>
         </div>
