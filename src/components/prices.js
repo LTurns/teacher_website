@@ -1,8 +1,10 @@
 import React from "react";
+import Footer from './footer'
 
 export default class Price extends React.Component {
   render() {
     return (
+      <div>
       <div className="page-section" id="book">
         <center>
           <h1 id="prices_title" className="section-heading text-uppercase">
@@ -61,6 +63,8 @@ export default class Price extends React.Component {
             </div>
           </div>
         </div>
+      </div>
+      <Footer />
       </div>
     );
   }

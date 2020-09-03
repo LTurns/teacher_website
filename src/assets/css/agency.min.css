@@ -322,6 +322,9 @@ header.masthead .intro-text .intro-heading {
   background-attachment: scroll;
   background-position: center center;
   background-size: cover;
+}
+
+#service_text {
   padding-bottom: 7%;
 }
 
@@ -395,7 +398,6 @@ th {
   background-position: center center;
   background-size: cover;
   height: 100vh;
-  padding-bottom: 7%;
 }
 
 .prices-intro {
@@ -410,8 +412,7 @@ th {
   margin-top: 2%;
   font-size: 13px;
   letter-spacing: 1px;
-  width: 88%;
-  
+  /* width: 88%; */
 }
 
 #continue_button,
@@ -447,9 +448,11 @@ th {
   background-attachment: scroll;
   background-position: center center;
   background-size: cover;
-  padding-bottom: 7%;
 }
 
+#privacy_text {
+  padding-bottom: 7%;
+}
 
 /* BOOKING DESIGN */
 

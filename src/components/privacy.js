@@ -1,4 +1,5 @@
 import React from "react";
+import Footer from './footer'
 
 export default class Privacy extends React.Component {
   render() {
@@ -9,7 +10,7 @@ export default class Privacy extends React.Component {
           PRIVACY
           </h1>
         </center>
-        <div className="container" id="table">
+        <div className="container" id="privacy_text">
           <div className="row no-gutters">
             <div className="col-lg-12">
               <div id="service-stuff">
@@ -73,6 +74,7 @@ EMT Tuition - 07494 0269 28 or englishmastertrainer@gmail.com  or Christopher Sh
           </div>
         </div>
       </div>
+      <Footer />
       </div>
     );
   }

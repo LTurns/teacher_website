@@ -1,5 +1,6 @@
 import React from "react";
 import axios from "axios";
+import Footer from './footer'
 
 export default class Book extends React.Component {
   constructor(props) {
@@ -119,6 +120,7 @@ export default class Book extends React.Component {
               </div>
             </div>
           </div>
+          <Footer />
         </div>
       );
     } else {
@@ -233,6 +235,7 @@ export default class Book extends React.Component {
               </div>
             </div>
           </div>
+          <Footer />
         </div>
       );
     }

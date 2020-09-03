@@ -30,7 +30,6 @@ function App() {
          <Route path='/booking' component={ Book }></Route>
      </Switch>
     </BrowserRouter>
-      <Footer />
     </div>
   );
 }

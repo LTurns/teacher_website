@@ -1,4 +1,5 @@
 import React from "react";
+import Footer from './footer'
 
 export default class Services extends React.Component {
   render() {
@@ -9,7 +10,7 @@ export default class Services extends React.Component {
             SERVICES
           </h1>
         </center>
-        <div className="container">
+        <div className="container" id="service_text">
           <div className="row no-gutters">
             <div className="col-lg-6" id="service_intro">
                 <ul>
@@ -124,6 +125,7 @@ export default class Services extends React.Component {
               </div> 
               </div>
         </div>
+        <Footer />
       </div>
     );
   }
