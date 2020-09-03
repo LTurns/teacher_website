@@ -15,7 +15,7 @@ export default class About extends React.Component {
         <center>
           </center>
           </div> */}
-            <div className="col-lg-6">
+            <div className="col-xl-6">
               <center>
                 <img
                   src={require("../assets/img/chris.png")}
@@ -26,7 +26,7 @@ export default class About extends React.Component {
               </center>
             </div>
 
-            <div className="col-lg-6">
+            <div className="col-xl-6">
               <div className="timeline-panel">
                 <div className="intro-body">
                   <p>

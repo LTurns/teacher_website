@@ -388,6 +388,7 @@ th {
   background-attachment: scroll;
   background-position: center center;
   background-size: cover;
+  height: 100vh;
   padding-bottom: 7%;
 }
 
@@ -452,6 +453,7 @@ th {
   background-attachment: scroll;
   background-position: center center;
   background-size: cover;
+  height: 100vh;
 }
 
 #confirm {
@@ -603,10 +605,6 @@ input[text] {
     margin-bottom: 25%;
     padding: 20%;
   }
-
-  
-
-
 
   #sendMessageButton {
     background-color: #add8e6;
