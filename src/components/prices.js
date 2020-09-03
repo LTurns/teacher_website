@@ -4,7 +4,6 @@ import Footer from './footer'
 export default class Price extends React.Component {
   render() {
     return (
-      <div>
       <div className="page-section" id="book">
         <center>
           <h1 id="prices_title" className="section-heading text-uppercase">
@@ -42,7 +41,7 @@ export default class Price extends React.Component {
             </div>
           </div>
           <div className="row">
-            <div className="col-lg-8 mx-auto text-center">
+            <div className="col-xl-11 mx-auto text-center" id="booking_text">
               <a
                 className="btn btn-primary btn-xl text-uppercase js-scroll-trigger"
                 id="continue_button"
@@ -56,15 +55,17 @@ export default class Price extends React.Component {
                 your aims before you begin the course. All assessments and
                 lessons take place via Zoom.
               </p>
+              <p>Payments are to be made prior to the first lesson upon agreement of a lesson or course, subsequent to receiving a confirmation email from EMT Tutoring with the total payment required. Payments are to be made via PayPal or bank transfer at least 24 hours before your first lesson. When payment is received by EMT Tutoring you will be sent an email thanking you for your payment and confirming your upcoming lesson date & time.
+ 60 minute classes are 55 minutes of teaching +5 minutes of personalised report writing. 5 hour courses must be used within 5 weeks of date of purchase. 10 hour courses must be used within 10 weeks of date of purchase.</p>
               <p className="prices-intro">
                 To avoid being charged, please ensure all cancellations are made
                 at least 24 hours in advance.
               </p>
+
             </div>
           </div>
         </div>
-      </div>
-      <Footer />
+        <Footer />
       </div>
     );
   }
