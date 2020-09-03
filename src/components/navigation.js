@@ -16,6 +16,7 @@ export default class Navigation extends React.Component {
     {/* <div id="navbarSupportedContent" class="collapse navbar-collapse"> */}
     <button className="navbar-toggler navbar-dark" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span className="navbar-toggler-icon"></span>
+          <p className="menu">Menu</p>
         </button>
         <div className="collapse navbar-collapse" id="navbarNav">
       <ul class="navbar-nav ml-auto">
