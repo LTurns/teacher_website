@@ -271,6 +271,10 @@ header.masthead .intro-text .intro-heading {
   margin-bottom: 5%;
 }
 
+#about_mid {
+  padding-bottom: 3%;
+}
+
 @media (max-width: 768px) {
   #about_title,
   #services_title,
@@ -566,7 +570,7 @@ input[text] {
   padding-bottom: 3%;
   background-color: #ededed;
   opacity: 0.9;
-  margin-bottom: 8%;
+  margin-bottom: 12%;
   width: 100%;
 }
 

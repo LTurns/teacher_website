@@ -131,7 +131,7 @@ export default class Contact extends React.Component {
           </h1>
           <div className="container">
             <div className="row">
-              <div className="col-lg-12">
+              <div className="col-xl-12">
                 <div id="contacts">
                   <p className="contact-intro text-center">
                     {" "}
@@ -204,7 +204,7 @@ export default class Contact extends React.Component {
                       <p className="help-block text-danger"></p>
                     </div>
                     <div className="clearfix"></div>
-                    <div className="col-lg-12 text-center">
+                    <div className="col-xl-12 text-center">
                       <div id="success"></div>
                       <center><span id="required_fields" style={{color: "red"}}>{this.state.errors}</span></center>
                       
