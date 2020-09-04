@@ -99,6 +99,7 @@ export default class Book extends React.Component {
   render() {
     if (this.state.submitted === true) {
       return (
+        <div>
         <div className="page-section" id="booking">
       
           <h2 id="booking_title" className="section-heading text-center">
@@ -120,11 +121,13 @@ export default class Book extends React.Component {
               </div>
             </div>
           </div>
-          <Footer />
+        </div>
+         <Footer />
         </div>
       );
     } else {
       return (
+        <div>
         <div className="page-section" id="booking">
 
           <h2 id="booking_title" className="section-heading text-center">
@@ -235,8 +238,9 @@ export default class Book extends React.Component {
               </div>
             </div>
           </div>
-          <Footer />
         </div>
+        <Footer/>
+          </div>
       );
     }
   }

@@ -33,7 +33,7 @@ export default class Services extends React.Component {
                 src={require("../assets/img/officehome.jpg")}
                 id="officepic"
                 className="img-fluid"
-                alt=""
+                alt="remote teaching"
               ></img>
             </div>
             </div>

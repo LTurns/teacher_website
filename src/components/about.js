@@ -22,7 +22,7 @@ export default class About extends React.Component {
                   src={require("../assets/img/chris.png")}
                   id="chris"
                   className="img-fluid"
-                  alt=""
+                  alt="about_teacher"
                 ></img>
               </center>
             </div>
@@ -65,7 +65,7 @@ export default class About extends React.Component {
                     src={require("../assets/img/tefl.png")}
                     id="tefl"
                     className="img-fluid d-flex mx-auto"
-                    alt=""
+                    alt="teacher certificate 1"
                   ></img>
   </div>
   <div className="column mx-auto">
@@ -73,7 +73,7 @@ export default class About extends React.Component {
                     src={require("../assets/img/advanced_teaching.png")}
                     id="teaching"
                     className="img-fluid d-flex mx-auto"
-                    alt=""
+                    alt="teacher certificate 2"
                   ></img>
   </div>
   </div>
