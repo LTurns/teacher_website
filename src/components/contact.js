@@ -101,12 +101,12 @@ export default class Contact extends React.Component {
     if (this.state.submitted === true) {
       return (
         <div className="page-section1" id="contact">
-          <h1
+          <h2
             id="contact_title"
             className="section-heading text-uppercase text-center"
           >
             CONTACT
-          </h1>
+          </h2>
           <div className="container">
             <div className="row">
               <div className="col-lg-12">
@@ -125,12 +125,12 @@ export default class Contact extends React.Component {
       return (
         <div className="page-section1" id="contact">
 
-          <h1
+          <h2
             id="contact_title"
             className="section-heading text-uppercase text-center"
           >
             CONTACT
-          </h1>
+          </h2>
           <div className="container">
             <div className="row">
               <div className="col-xl-12">

@@ -6,9 +6,9 @@ export default class Price extends React.Component {
     return (
       <div className="page-section" id="book">
         <center>
-          <h1 id="prices_title" className="section-heading text-uppercase">
+          <h2 id="prices_title" className="section-heading text-uppercase">
             PRICES AND BOOKING
-          </h1>
+          </h2>
         </center>
         <div className="container" id="price">
           <div className="row">

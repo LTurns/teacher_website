@@ -6,9 +6,9 @@ export default class About extends React.Component {
     return (
       <div className="page-section" id="about">
         <center>
-          <h1 id="about_title" className="section-heading text-uppercase">
+          <h2 id="about_title" className="section-heading text-uppercase">
             ABOUT
-          </h1>
+          </h2>
         </center>
         <div className="container" id="about_mid">
           <div className="row no-gutters">

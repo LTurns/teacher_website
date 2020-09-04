@@ -101,9 +101,9 @@ export default class Book extends React.Component {
       return (
         <div className="page-section" id="booking">
       
-          <h1 id="booking_title" className="section-heading text-center">
+          <h2 id="booking_title" className="section-heading text-center">
             BOOK
-          </h1>
+          </h2>
           <div className="container">
             <div className="row" id="form">
               <div className="col-lg-12">
@@ -127,9 +127,9 @@ export default class Book extends React.Component {
       return (
         <div className="page-section" id="booking">
 
-          <h1 id="booking_title" className="section-heading text-center">
+          <h2 id="booking_title" className="section-heading text-center">
             BOOK
-          </h1>
+          </h2>
           <div className="container">
             <div className="row" id="form">
               <div className="col-lg-12">

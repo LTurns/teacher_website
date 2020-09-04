@@ -6,9 +6,9 @@ export default class Privacy extends React.Component {
     return (
       <div className="page-section" id="privacy">
         <center>
-          <h1 id="services_title" className="section-heading text-uppercase">
+          <h2 id="services_title" className="section-heading text-uppercase">
           PRIVACY
-          </h1>
+          </h2>
         </center>
         <div className="container" id="privacy_text">
           <div className="row no-gutters">
