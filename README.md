@@ -8,7 +8,7 @@ They wanted a professional looking site to go along with their current business 
 
 The project was made with the MERN stack - React JS, Mongo DB, Express and Node. I used Bootstrap and @media to ensure the application was responsive for both mobile and web-use. The backend always involves Mailgun - a third party that links the forms to the client's email address. 
 
-The project has been deployed using netlify. Please visit it <a href="https://eager-pasteur-1cdd5c.netlify.app/">here</a>.
+The project has been deployed using netlify. Please visit it <a href="https://www.englishmasterteacher.com/">here</a>.
 
 ## Available Scripts
 
