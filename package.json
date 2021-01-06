@@ -5,7 +5,7 @@
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^10.4.9",
-    "axios": "^0.19.2",
+    "axios": "^0.21.1",
     "mdbreact": "^4.27.0",
     "react": "^16.9.0",
     "react-dom": "^16.9.0",
